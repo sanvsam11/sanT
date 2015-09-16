@@ -35,6 +35,7 @@ public class Avl_Tree{// self Balancing binary search tree
         mytree.InsertNode(4,mytree.Root);
         mytree.InsertNode(5,mytree.Root);
 
+		
         mytree.DisplayTree(mytree.Root);
     }
 }
