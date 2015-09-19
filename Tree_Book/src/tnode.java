@@ -1,11 +1,11 @@
 /**
  * Created by sant on 14/9/15.
  */
-public class Tnode {
-    int element;
-    Tnode left,right;
+public class tnode {
+    char element;
+    tnode left,right;
 
-    public Tnode(int element){
+    public tnode(char element){
         this.element=element;left=right=null;
     }
 }
