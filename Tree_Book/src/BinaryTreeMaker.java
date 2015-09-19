@@ -75,8 +75,14 @@ public class BinaryTreeMaker{
             if(c.left!=null)System.out.println(c.element);
             else break;
         c=c.left;}
+        BTQueue.EmptyQueue();
+        BTQueue.push(Root);while(true){c=BTQueue.pop();
+            if(c==null) break;
+            else{if(c.left==null&&c.right==null)System.out.println(c.element);
+                BTQueue.push(c.left);BTQueue.push(c.right);}
+        }
 
-        while(true){c=Root;
+        c=Root;while(true){
             if(c.right!=null)RevRit.push(c);
             else break;
         c=c.right;}RevRit.PrintStack();
