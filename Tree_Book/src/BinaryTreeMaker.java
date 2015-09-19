@@ -5,6 +5,7 @@ public class BinaryTreeMaker{
     QueueMaker BTEnabler=new QueueMaker();
     QueueMaker BTQueue =new QueueMaker();
     QueueMaker ZZQ=new QueueMaker();
+    StackMaker RZZQ=new StackMaker();
     tnode Root=null,c;int max=0,lsum=0;boolean zz=true;
 
     public BinaryTreeMaker(){Root=null;}
@@ -49,19 +50,25 @@ public class BinaryTreeMaker{
         tnode z=new tnode('0');BTQueue.push(z);
         while(true){c= BTQueue.pop();
             if(c==null)break;
-            else if(c==z){zz=!zz;}
+            else if(c==z){
+               if(zz) while(true) {c=ZZQ.pop();
+                if(c==null)break;
+                else System.out.println(c.element);
+            }
+                else while(true) {c=RZZQ.pop();
+                   if(c==null)break;
+                   else System.out.println(c.element);
+               }
+
+           zz=!zz; }
             else{BTQueue.push(c.left);BTQueue.push(c.right);
                 if(zz){ZZQ.push(c.left);ZZQ.push(c.right);}
-                else{
-
+                else{RZZQ.push(c.left);RZZQ.push(c.right);
                 //ZZQ.push(c.right);ZZQ.push(c.left);
                 }
             }
         }
-        while(true) {c=ZZQ.pop();
-            if(c==null)break;
-            else System.out.println(c.element);
-        }
+
     }
     public static void main(String ar[]){
         BinaryTreeMaker testtree=new BinaryTreeMaker();
