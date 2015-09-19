@@ -3,13 +3,14 @@
  */
 public class BinaryTreeMaker{
     QueueMaker BTEnabler=new QueueMaker();
-    QueueMaker TPrintQueue=new QueueMaker();
-    tnode Root=null,c;int max=0,lsum=0;
+    QueueMaker BTQueue =new QueueMaker();
+    QueueMaker ZZQ=new QueueMaker();
+    tnode Root=null,c;int max=0,lsum=0;boolean zz=true;
 
     public BinaryTreeMaker(){Root=null;}
     public void InsertNode(char element){
         while(true){
-            if(Root==null){tnode newnode=new tnode(element);c=Root=newnode;TPrintQueue.push(newnode);break;}
+            if(Root==null){tnode newnode=new tnode(element);c=Root=newnode;BTQueue.push(newnode);break;}
             else{
                 if(c.left==null){tnode newnode=new tnode(element);c.left=newnode;BTEnabler.push(newnode);break;}
                 else if(c.right==null) {tnode newnode=new tnode(element);c.right=newnode;BTEnabler.push(newnode);break;}
@@ -18,25 +19,50 @@ public class BinaryTreeMaker{
         }
     }
 
-    public int SumatLevels(){TPrintQueue.EmptyQueue();TPrintQueue.push(Root);tnode mark=new tnode('0');TPrintQueue.push(mark);
-        while (true){c=TPrintQueue.pop();
+    public int SumatLevels(){
+        BTQueue.EmptyQueue();
+        BTQueue.push(Root);tnode mark=new tnode('0');
+        BTQueue.push(mark);
+        while (true){c= BTQueue.pop();
             if(c!=null&&c!=mark) {lsum=lsum+c.element;
-            TPrintQueue.push(c.left);TPrintQueue.push(c.right);
+            BTQueue.push(c.left);
+                BTQueue.push(c.right);
             }
-            else if(c==mark){TPrintQueue.push(mark);
+            else if(c==mark){
+                BTQueue.push(mark);
             max=(lsum>max)?lsum:max;System.out.println(lsum);lsum=0;}
             else {System.out.println(lsum);break;};
         }
         return max;
     }
-    public void DisplayTree(){TPrintQueue.EmptyQueue();TPrintQueue.push(Root);
-        while(true){c=TPrintQueue.pop();
+    public void DisplayTree(){
+        BTQueue.EmptyQueue();
+        BTQueue.push(Root);
+        while(true){c= BTQueue.pop();
             if(c!=null) { System.out.println(c.element);
-            TPrintQueue.push(c.left);TPrintQueue.push(c.right);}
+            BTQueue.push(c.left);
+                BTQueue.push(c.right);}
             else break;
         }
     }
-	public void ZigzagPrint(){}
+	public void ZigzagPrint(){BTQueue.EmptyQueue();BTQueue.push(Root);ZZQ.push(Root);
+        tnode z=new tnode('0');BTQueue.push(z);
+        while(true){c= BTQueue.pop();
+            if(c==null)break;
+            else if(c==z){zz=!zz;}
+            else{BTQueue.push(c.left);BTQueue.push(c.right);
+                if(zz){ZZQ.push(c.left);ZZQ.push(c.right);}
+                else{
+
+                //ZZQ.push(c.right);ZZQ.push(c.left);
+                }
+            }
+        }
+        while(true) {c=ZZQ.pop();
+            if(c==null)break;
+            else System.out.println(c.element);
+        }
+    }
     public static void main(String ar[]){
         BinaryTreeMaker testtree=new BinaryTreeMaker();
 
@@ -44,8 +70,12 @@ public class BinaryTreeMaker{
         testtree.InsertNode('b');
         testtree.InsertNode('c');
         testtree.InsertNode('d');
+        testtree.InsertNode('e');
+        testtree.InsertNode('f');
+        testtree.InsertNode('g');
 
-        testtree.DisplayTree();
-        System.out.println("max:"+testtree.SumatLevels());
+        testtree.ZigzagPrint();
+        //testtree.DisplayTree();
+        //System.out.println("max:"+testtree.SumatLevels());
     }
 }

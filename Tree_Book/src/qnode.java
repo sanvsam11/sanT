@@ -6,6 +6,6 @@ public class qnode {
     qnode next;
 
     public qnode(tnode element){
-        this.element=element;
+        this.element=element;next=null;
     }
 }
