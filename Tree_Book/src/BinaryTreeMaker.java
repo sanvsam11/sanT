@@ -68,7 +68,18 @@ public class BinaryTreeMaker{
                 }
             }
         }
+    }
 
+    public void TreeBoundaryPrinter(){c=Root;StackMaker RevRit=new StackMaker();
+        while(true){
+            if(c.left!=null)System.out.println(c.element);
+            else break;
+        c=c.left;}
+
+        while(true){c=Root;
+            if(c.right!=null)RevRit.push(c);
+            else break;
+        c=c.right;}RevRit.PrintStack();
     }
     public static void main(String ar[]){
         BinaryTreeMaker testtree=new BinaryTreeMaker();
@@ -81,7 +92,8 @@ public class BinaryTreeMaker{
         testtree.InsertNode('f');
         testtree.InsertNode('g');
 
-        testtree.ZigzagPrint();
+        testtree.TreeBoundaryPrinter();
+        //testtree.ZigzagPrint();
         //testtree.DisplayTree();
         //System.out.println("max:"+testtree.SumatLevels());
     }
