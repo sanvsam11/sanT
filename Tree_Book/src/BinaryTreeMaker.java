@@ -60,7 +60,7 @@ public class BinaryTreeMaker{
                    else System.out.println(c.element);
                }
 
-           zz=!zz; }
+           zz=!zz;BTQueue.push(z); }
             else{BTQueue.push(c.left);BTQueue.push(c.right);
                 if(zz){ZZQ.push(c.left);ZZQ.push(c.right);}
                 else{RZZQ.push(c.left);RZZQ.push(c.right);
