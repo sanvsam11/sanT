@@ -29,9 +29,9 @@ public class QueueMaker {
 
             c=c.next;}
     }
-/*
-    public static void main(String ar[]){
 
+    public static void main(String ar[]){
+/*
         QueueMaker testq=new QueueMaker();
         tnode a=new tnode('a');
         tnode b=new tnode('b');
@@ -41,6 +41,6 @@ public class QueueMaker {
         testq.push(b);
         testq.push(c);
         testq.PrintQueue();
-
-    }*/
+*/
+    }
 }
