@@ -17,12 +17,12 @@ public class QueueMaker {
         }
     }
 
-    public tnode pop(){
+    public tnode pop(){tnode temp;
         if(tail==null)return null;
-        else {tnode temp;
-            temp=tail.element;tail=tail.next;return temp;
-        }
+        else if(tail!=head){temp=tail.element;tail=tail.next;return temp;}
+        else {temp=tail.element;tail=head=null;return temp;}
     }
+    public void EmptyQueue(){head=tail=null;}
     public void PrintQueue(){qnode c=tail;
         while (true){
             System.out.println(c.element.element);if(c==head)break;
