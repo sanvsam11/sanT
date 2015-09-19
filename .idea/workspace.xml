@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree_Book/src/StackMaker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/BinaryTreeMaker.class" afterPath="$PROJECT_DIR$/Tree_Book/out/BinaryTreeMaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" afterPath="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/src/qnode.java" afterPath="$PROJECT_DIR$/Tree_Book/src/qnode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/qnode.class" afterPath="$PROJECT_DIR$/Tree_Book/out/qnode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/src/StackMaker.java" afterPath="$PROJECT_DIR$/Tree_Book/src/StackMaker.java" />
     </list>
     <ignored path="sanT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,11 +48,11 @@
       <file leaf-file-name="StackMaker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tree_Book/src/StackMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.89442813">
-              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.7888563">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
               <folding>
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,7 +208,7 @@
       <recent name="$PROJECT_DIR$/Tree_Book/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeMaker">
+  <component name="RunManager" selected="Application.StackMaker">
     <configuration default="false" name="QueueMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="QueueMaker" />
@@ -229,6 +227,21 @@
     <configuration default="false" name="BinaryTreeMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BinaryTreeMaker" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sanT" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StackMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="StackMaker" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -388,14 +401,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.QueueMaker" />
       <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeMaker" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StackMaker" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTreeMaker" />
-        <item index="1" class="java.lang.String" itemvalue="Application.QueueMaker" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.StackMaker" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeMaker" />
+        <item index="2" class="java.lang.String" itemvalue="Application.QueueMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +448,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -537,11 +552,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tree_Book/src/StackMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89442813">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.7888563">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
           <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
