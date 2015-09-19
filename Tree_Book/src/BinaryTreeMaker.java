@@ -36,6 +36,7 @@ public class BinaryTreeMaker{
             else break;
         }
     }
+	public void ZigzagPrint(){}
     public static void main(String ar[]){
         BinaryTreeMaker testtree=new BinaryTreeMaker();
 
