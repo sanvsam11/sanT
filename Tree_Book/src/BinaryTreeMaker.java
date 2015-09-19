@@ -1,6 +1,10 @@
 /**
  * Created by sant on 14/9/15.
- 
+ */
+public class BinaryTreeMaker{
+    QueueMaker BTEnabler=new QueueMaker();
+    QueueMaker TPrintQueue=new QueueMaker();
+    tnode Root=null,c;
 
     public BinaryTreeMaker(){Root=null;}
     public void InsertNode(char element){
