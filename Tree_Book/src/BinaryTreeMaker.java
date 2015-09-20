@@ -106,7 +106,9 @@ public class BinaryTreeMaker{
                 c=c.left;
             }
             else {c=BTStack.pop();
-                System.out.println(c.element);c=c.right;
+                int i=BTStack.CountStack();
+                System.out.println(c.element);
+                if(i!=1){c=null;}
                 if(BTStack.EmptyStackCheck())break;
             }
         }

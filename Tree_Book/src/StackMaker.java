@@ -2,7 +2,7 @@
  * Created by sant on 19/9/15.
  */
 public class StackMaker {
-    qnode top,c;
+    qnode top,c;int Count=0;
 
     public StackMaker(){
         top=null;
@@ -25,8 +25,12 @@ public class StackMaker {
         top=null;
     }
     public boolean EmptyStackCheck(){if(top==null)return true;else return false;}
+
+    public int CountStack(){c=top;
+        while(c!=null){Count++;c=c.next;}return Count;
+    }
     public static void main(String ar[]){
-      /*
+    /*
         tnode a=new tnode('a');
         tnode b=new tnode('b');
         tnode c=new tnode('c');
@@ -37,9 +41,12 @@ public class StackMaker {
         teststack.push(b);
         teststack.push(c);
         teststack.push(d);
-        teststack.PrintStack();
-        System.out.println("pop:"+teststack.pop().element);
-        teststack.PrintStack();
+        //teststack.PrintStack();
+        //System.out.println("pop:"+teststack.pop().element);
+        //teststack.PrintStack();
+        teststack.pop();
+        System.out.println(teststack.CountStack());
         */
     }
+
 }
