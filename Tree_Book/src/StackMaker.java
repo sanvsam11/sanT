@@ -9,6 +9,7 @@ public class StackMaker {
     }
 
     public void push(tnode element){
+        if(element!=null)
         if(top==null){qnode newnode=new qnode(element);top=newnode;}
         else{qnode newnode = new qnode(element);newnode.next=top;top=newnode;}
     }
@@ -20,6 +21,10 @@ public class StackMaker {
     public void PrintStack(){c=top;
         while (c!=null){System.out.println(c.element.element);c=c.next;}
     }
+    public void EmptyStack(){
+        top=null;
+    }
+    public boolean EmptyStackCheck(){if(top==null)return true;else return false;}
     public static void main(String ar[]){
       /*
         tnode a=new tnode('a');
