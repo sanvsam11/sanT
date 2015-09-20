@@ -6,6 +6,7 @@ public class BinaryTreeMaker{
     QueueMaker BTQueue =new QueueMaker();
     QueueMaker ZZQ=new QueueMaker();
     StackMaker RZZQ=new StackMaker();
+    StackMaker BTStack=new StackMaker();
     tnode Root=null,c;int max=0,lsum=0;boolean zz=true;
 
     public BinaryTreeMaker(){Root=null;}
@@ -87,6 +88,31 @@ public class BinaryTreeMaker{
             else break;
         c=c.right;}RevRit.PrintStack();
     }
+
+    public void PrintInOrder(){c=Root;BTStack.EmptyStack();BTStack.push(Root);
+        while(true){
+            if(c!=null){BTStack.push(c.left);c=c.left;}
+            else{c=BTStack.pop();System.out.println(c.element);
+                BTStack.push(c.right);c=c.right;
+                if(BTStack.EmptyStackCheck())break;
+            }
+        }
+    }
+    public void PrintPostOrder(){c=Root;BTStack.EmptyStack();BTStack.push(Root);
+        while(true){
+            if(c!=null){
+                BTStack.push(c.right);
+                BTStack.push(c.left);
+                c=c.left;
+            }
+            else {c=BTStack.pop();
+                int i=BTStack.CountStack();
+                System.out.println(c.element);
+                if(i!=1){c=null;}
+                if(BTStack.EmptyStackCheck())break;
+            }
+        }
+    }
     public static void main(String ar[]){
         BinaryTreeMaker testtree=new BinaryTreeMaker();
 
@@ -98,6 +124,11 @@ public class BinaryTreeMaker{
         testtree.InsertNode('f');
         testtree.InsertNode('g');
 
+<<<<<<< HEAD
+=======
+        testtree.PrintPostOrder();
+        //testtree.PrintInOrder();
+>>>>>>> branch 'master' of https://github.com/sanvsam11/sanT.git
         //testtree.TreeBoundaryPrinter();
         //testtree.ZigzagPrint();
         testtree.DisplayTree();
