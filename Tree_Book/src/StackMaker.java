@@ -26,7 +26,7 @@ public class StackMaker {
     }
     public boolean EmptyStackCheck(){if(top==null)return true;else return false;}
 
-    public int CountStack(){c=top;
+    public int CountStack(){c=top;Count=0;
         while(c!=null){Count++;c=c.next;}return Count;
     }
     public static void main(String ar[]){
