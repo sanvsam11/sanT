@@ -98,9 +98,9 @@ public class BinaryTreeMaker{
         testtree.InsertNode('f');
         testtree.InsertNode('g');
 
-        testtree.TreeBoundaryPrinter();
+        //testtree.TreeBoundaryPrinter();
         //testtree.ZigzagPrint();
-        //testtree.DisplayTree();
+        testtree.DisplayTree();
         //System.out.println("max:"+testtree.SumatLevels());
     }
 }
