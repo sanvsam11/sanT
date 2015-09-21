@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree_Book/src/cqnode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/BinaryTreeMaker.class" afterPath="$PROJECT_DIR$/Tree_Book/out/BinaryTreeMaker.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" afterPath="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java" afterPath="$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java" />
     </list>
     <ignored path="sanT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="BinaryTreeMaker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47214076">
-              <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.3313783">
+              <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -643,15 +643,15 @@
     <entry file="file://$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47214076">
-          <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.3313783">
+          <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
           <folding />
         </state>
       </provider>

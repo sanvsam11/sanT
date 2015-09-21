@@ -114,9 +114,14 @@ public class BinaryTreeMaker{
         }
     }
 
-    public tnode CreateTree_Pre_In(CQueueMaker PQ,CQueueMaker IQ){
-
-        
+    public tnode CreateTree_Pre_In(CQueueMaker PQ,CQueueMaker IQ){char PC,IC;
+        PC=PQ.pop();tnode N=new tnode(PC);
+        CQueueMaker l=new CQueueMaker();CQueueMaker r=new CQueueMaker();
+        while(true){IC=IQ.pop();
+            if(PC==IC)break; l.push(IC);}
+        while (!IQ.IsEmpty())r.push(IQ.pop());
+        if(!PQ.IsEmpty()){N.left=CreateTree_Pre_In(PQ,l);N.right=CreateTree_Pre_In(PQ,r);}
+        return N;
     }
     public static void main(String ar[]){
         BinaryTreeMaker testtree=new BinaryTreeMaker();

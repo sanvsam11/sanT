@@ -14,4 +14,5 @@ public class CQueueMaker {
         if(Tail==null)return '0';
         else{temp=Tail.element;Tail=Tail.next;return temp;}
     }
+    public boolean IsEmpty(){if(Tail==null)return true;else return false;}
 }
