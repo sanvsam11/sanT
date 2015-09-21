@@ -113,9 +113,14 @@ public class BinaryTreeMaker{
             }
         }
     }
+
+    public tnode CreateTree_Pre_In(CQueueMaker PQ,CQueueMaker IQ){
+
+        
+    }
     public static void main(String ar[]){
         BinaryTreeMaker testtree=new BinaryTreeMaker();
-
+/*
         testtree.InsertNode('a');
         testtree.InsertNode('b');
         testtree.InsertNode('c');
@@ -123,12 +128,19 @@ public class BinaryTreeMaker{
         testtree.InsertNode('e');
         testtree.InsertNode('f');
         testtree.InsertNode('g');
-
-        testtree.PrintPostOrder();
+*/
+       // testtree.PrintPostOrder();
         //testtree.PrintInOrder();
         //testtree.TreeBoundaryPrinter();
         //testtree.ZigzagPrint();
         //testtree.DisplayTree();
         //System.out.println("max:"+testtree.SumatLevels());
+
+        CQueueMaker InQ=new CQueueMaker();
+        InQ.push('d');InQ.push('b');InQ.push('e');InQ.push('a');InQ.push('f');InQ.push('c');InQ.push('g');
+        CQueueMaker PrQ=new CQueueMaker();
+        PrQ.push('a');PrQ.push('b');PrQ.push('d');PrQ.push('e');PrQ.push('c');PrQ.push('f');PrQ.push('g');
+        testtree.CreateTree_Pre_In(PrQ,InQ);
+        testtree.DisplayTree();
     }
 }
