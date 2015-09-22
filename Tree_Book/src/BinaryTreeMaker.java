@@ -113,7 +113,7 @@ public class BinaryTreeMaker{
             }
         }
     }
-
+//Aide configured
     public tnode CreateTree_Pre_In(CQueueMaker PQ,CQueueMaker IQ){char PC,IC;
         PC=PQ.pop();tnode N=new tnode(PC);
         CQueueMaker l=new CQueueMaker();CQueueMaker r=new CQueueMaker();
@@ -132,18 +132,17 @@ public class BinaryTreeMaker{
         testtree.InsertNode('d');
         testtree.InsertNode('e');
         testtree.InsertNode('f');
-        testtree.InsertNode('g');
-<<<<<<< HEAD
+        testtree.InsertNode('g');<<<<<<< HEAD
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 =======
         testtree.PrintPostOrder();
 =======
 */
        // testtree.PrintPostOrder();
->>>>>>> branch 'master' of https://github.com/sanvsam11/sanT.git
+//>>>>>>> branch 'master' of https://github.com/sanvsam11/sanT.git
         //testtree.PrintInOrder();
->>>>>>> branch 'master' of https://github.com/sanvsam11/sanT.git
+//>>>>>>> branch 'master' of https://github.com/sanvsam11/sanT.git
         //testtree.TreeBoundaryPrinter();
         //testtree.ZigzagPrint();
         testtree.DisplayTree();
