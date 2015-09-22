@@ -29,7 +29,7 @@ public class QueueMaker {
 
             c=c.next;}
     }
-
+/*
     public static void main(String ar[]){
 
         QueueMaker testq=new QueueMaker();
@@ -43,4 +43,5 @@ public class QueueMaker {
         testq.PrintQueue();
 
     }
+	*/
 }

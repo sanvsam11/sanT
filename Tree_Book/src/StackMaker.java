@@ -29,8 +29,9 @@ public class StackMaker {
     public int CountStack(){c=top;Count=0;
         while(c!=null){Count++;c=c.next;}return Count;
     }
-    public static void main(String ar[]){
-    /*
+  /*
+	public static void main(String ar[]){
+    
         tnode a=new tnode('a');
         tnode b=new tnode('b');
         tnode c=new tnode('c');
@@ -46,7 +47,7 @@ public class StackMaker {
         //teststack.PrintStack();
         teststack.pop();
         System.out.println(teststack.CountStack());
-        */
+        
     }
-
+*/
 }

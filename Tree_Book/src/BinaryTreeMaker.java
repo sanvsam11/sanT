@@ -115,13 +115,13 @@ public class BinaryTreeMaker{
     }
 //Aide configured
     public tnode CreateTree_Pre_In(CQueueMaker PQ,CQueueMaker IQ){char PC,IC;
-        PC=PQ.pop();tnode N=new tnode(PC);
+        PC=PQ.pop();Root=new tnode(PC);
         CQueueMaker l=new CQueueMaker();CQueueMaker r=new CQueueMaker();
         while(true){IC=IQ.pop();
             if(PC==IC)break; l.push(IC);}
         while (!IQ.IsEmpty())r.push(IQ.pop());
-        if(!PQ.IsEmpty()){N.left=CreateTree_Pre_In(PQ,l);N.right=CreateTree_Pre_In(PQ,r);}
-        return N;
+        if(!PQ.IsEmpty()){Root.left=CreateTree_Pre_In(PQ,l); Root.right=CreateTree_Pre_In(PQ,r);}
+        return Root;
     }
     public static void main(String ar[]){
         BinaryTreeMaker testtree=new BinaryTreeMaker();

@@ -3,7 +3,7 @@
  */
 public class CQueueMaker {
 
-    cqnode Head,Tail;
+    cqnode Head,Tail,c;
 
     public CQueueMaker(){Head=Tail=null;}
     public void push(char c){
@@ -11,8 +11,24 @@ public class CQueueMaker {
         else{cqnode newqnode=new cqnode(c);Head.next=newqnode;Head=newqnode;}
     }
     public char pop(){char temp;
-        if(Tail==null)return '0';
+        if(Tail==Head){temp=Head.element;Tail=Head=null;return temp;}
         else{temp=Tail.element;Tail=Tail.next;return temp;}
     }
-    public boolean IsEmpty(){if(Tail==null)return true;else return false;}
+	public void PrintCQueue(){c=Tail;
+		while(c!=Head){System.out.println(c.element);c=c.next;}System.out.println(c.element);
+	}
+    public boolean IsEmpty(){if(Tail==null&&Head==null)return true;else return false;}
+/*
+	public static void main(String ar[]){
+	
+	CQueueMaker test=new CQueueMaker();
+	test.push('a');
+	test.push('b');
+	test.push('c');
+	//test.pop();test.pop();
+	test.push('d');
+	test.PrintCQueue();
+	
 }
+*/
+	}
