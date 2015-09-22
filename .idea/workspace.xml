@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/StackMaker.class" afterPath="$PROJECT_DIR$/Tree_Book/out/StackMaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/src/StackMaker.java" afterPath="$PROJECT_DIR$/Tree_Book/src/StackMaker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/BinaryTreeMaker.class" afterPath="$PROJECT_DIR$/Tree_Book/out/BinaryTreeMaker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" afterPath="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java" afterPath="$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java" />
     </list>
     <ignored path="sanT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,20 +25,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BinaryTreeMaker.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BinaryTreeMaker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3313783">
+              <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackMaker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CQueueMaker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cqnode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tree_Book/src/cqnode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackMaker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree_Book/src/StackMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29325512">
+            <state vertical-scroll-proportion="0.0">
               <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
@@ -85,8 +106,10 @@
         <option value="$PROJECT_DIR$/Tree_Book/src/tnode.java" />
         <option value="$PROJECT_DIR$/Tree_Book/src/QueueMaker.java" />
         <option value="$PROJECT_DIR$/Tree_Book/src/qnode.java" />
-        <option value="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" />
         <option value="$PROJECT_DIR$/Tree_Book/src/StackMaker.java" />
+        <option value="$PROJECT_DIR$/Tree_Book/src/cqnode.java" />
+        <option value="$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java" />
+        <option value="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" />
       </list>
     </option>
   </component>
@@ -170,20 +193,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpojPrograms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,8 +456,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -610,17 +619,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tree_Book/src/StackMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29325512">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="e#118#119#0" expanded="true" />
@@ -628,6 +629,30 @@
             <element signature="e#637#638#0" expanded="true" />
             <element signature="e#661#662#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree_Book/src/cqnode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3313783">
+          <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
