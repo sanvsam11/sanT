@@ -20,6 +20,7 @@ public class NextPalindrome
 		else
 			return false;
 	}
+	/*
 	public static void main(String ar[]){
 		NextPalindrome ob=new NextPalindrome();
 		//System.out.println( ob.CheckPalindrome(13231));
@@ -39,4 +40,5 @@ public class NextPalindrome
 			System.out.println(ip[i]);
 		}
 	}
+	*/
 }

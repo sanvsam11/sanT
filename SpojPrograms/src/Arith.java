@@ -27,7 +27,7 @@ public class Arith
 	public static void main (String ar[]){
 		
 		String inp=new String();
-		inp="24*37";
+		inp="400*4";
 		Formula qn=new Formula(inp);
 		qn.parser();
 		
