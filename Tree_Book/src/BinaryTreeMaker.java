@@ -115,13 +115,13 @@ public class BinaryTreeMaker{
     }
 //Aide configured
     public tnode CreateTree_Pre_In(CQueueMaker PQ,CQueueMaker IQ){char PC,IC;
-        PC=PQ.pop();Root=new tnode(PC);
+        PC=PQ.pop();tnode N=new tnode(PC);
         CQueueMaker l=new CQueueMaker();CQueueMaker r=new CQueueMaker();
         while(true){IC=IQ.pop();
             if(PC==IC)break; l.push(IC);}
         while (!IQ.IsEmpty())r.push(IQ.pop());
-        if(!PQ.IsEmpty()){Root.left=CreateTree_Pre_In(PQ,l); Root.right=CreateTree_Pre_In(PQ,r);}
-        return Root;
+        if(!(PQ.IsEmpty()||l.IsEmpty()||r.IsEmpty())){N.left=CreateTree_Pre_In(PQ,l); N.right=CreateTree_Pre_In(PQ,r);}
+        return N;
     }
     public static void main(String ar[]){
         BinaryTreeMaker testtree=new BinaryTreeMaker();
@@ -152,7 +152,8 @@ public class BinaryTreeMaker{
         InQ.push('d');InQ.push('b');InQ.push('e');InQ.push('a');InQ.push('f');InQ.push('c');InQ.push('g');
         CQueueMaker PrQ=new CQueueMaker();
         PrQ.push('a');PrQ.push('b');PrQ.push('d');PrQ.push('e');PrQ.push('c');PrQ.push('f');PrQ.push('g');
-        testtree.CreateTree_Pre_In(PrQ,InQ);
-        testtree.DisplayTree();
+        testtree.Root=testtree.CreateTree_Pre_In(PrQ,InQ);
+       testtree.PrintInOrder();
+       // testtree.DisplayTree();
     }
 }

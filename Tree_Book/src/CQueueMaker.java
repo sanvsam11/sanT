@@ -11,7 +11,7 @@ public class CQueueMaker {
         else{cqnode newqnode=new cqnode(c);Head.next=newqnode;Head=newqnode;}
     }
     public char pop(){char temp;
-        if(Tail==Head){temp=Head.element;Tail=Head=null;return temp;}
+        if(Tail==Head){temp=Tail.element;Tail=Head=null;return temp;}
         else{temp=Tail.element;Tail=Tail.next;return temp;}
     }
 	public void PrintCQueue(){c=Tail;
