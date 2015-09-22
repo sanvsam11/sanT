@@ -24,10 +24,10 @@ public class CQueueMaker {
 	CQueueMaker test=new CQueueMaker();
 	test.push('a');
 	test.push('b');
-	test.push('c');
-	//test.pop();test.pop();
+	//test.push('c');
+	test.pop();test.pop();
 	test.push('d');
-	test.PrintCQueue();
+	//test.PrintCQueue();
 	
 }
 */

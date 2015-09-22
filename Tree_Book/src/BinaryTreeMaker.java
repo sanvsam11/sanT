@@ -134,7 +134,7 @@ public class BinaryTreeMaker{
         testtree.InsertNode('f');
         testtree.InsertNode('g');<<<<<<< HEAD
 
-//<<<<<<< HEAD
+<<<<<<< HEAD
 =======
         testtree.PrintPostOrder();
 =======
@@ -145,14 +145,15 @@ public class BinaryTreeMaker{
 //>>>>>>> branch 'master' of https://github.com/sanvsam11/sanT.git
         //testtree.TreeBoundaryPrinter();
         //testtree.ZigzagPrint();
-        testtree.DisplayTree();
+        //testtree.DisplayTree();
         //System.out.println("max:"+testtree.SumatLevels());
 
         CQueueMaker InQ=new CQueueMaker();
         InQ.push('d');InQ.push('b');InQ.push('e');InQ.push('a');InQ.push('f');InQ.push('c');InQ.push('g');
         CQueueMaker PrQ=new CQueueMaker();
         PrQ.push('a');PrQ.push('b');PrQ.push('d');PrQ.push('e');PrQ.push('c');PrQ.push('f');PrQ.push('g');
-        testtree.CreateTree_Pre_In(PrQ,InQ);
+        InQ.PrintCQueue();PrQ.PrintCQueue();
+		testtree.CreateTree_Pre_In(PrQ,InQ);
         testtree.DisplayTree();
     }
 }
