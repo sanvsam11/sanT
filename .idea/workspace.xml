@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree_Book/src/LeastCommonAncestor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/BinaryTreeMaker.class" afterPath="$PROJECT_DIR$/Tree_Book/out/BinaryTreeMaker.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" afterPath="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java" afterPath="$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sanT.iws" />
@@ -25,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BinaryTreeMaker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTreeMaker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0058651">
-              <caret line="155" column="31" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="150" column="2" selection-start-line="150" selection-start-column="2" selection-end-line="150" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeastCommonAncestor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tree_Book/src/LeastCommonAncestor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0029325">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -105,6 +116,7 @@
         <option value="$PROJECT_DIR$/Tree_Book/src/cqnode.java" />
         <option value="$PROJECT_DIR$/Tree_Book/src/CQueueMaker.java" />
         <option value="$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java" />
+        <option value="$PROJECT_DIR$/Tree_Book/src/LeastCommonAncestor.java" />
       </list>
     </option>
   </component>
@@ -213,7 +225,7 @@
       <recent name="$PROJECT_DIR$/Tree_Book/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeMaker">
+  <component name="RunManager" selected="Application.LeastCommonAncestor">
     <configuration default="false" name="QueueMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="QueueMaker" />
@@ -247,6 +259,21 @@
     <configuration default="false" name="StackMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="StackMaker" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sanT" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeastCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="LeastCommonAncestor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -406,16 +433,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.QueueMaker" />
       <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeMaker" />
       <item index="2" class="java.lang.String" itemvalue="Application.StackMaker" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LeastCommonAncestor" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTreeMaker" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StackMaker" />
-        <item index="2" class="java.lang.String" itemvalue="Application.QueueMaker" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.LeastCommonAncestor" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeMaker" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StackMaker" />
+        <item index="3" class="java.lang.String" itemvalue="Application.QueueMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +463,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1319" height="677" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -451,7 +480,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -565,6 +594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -580,6 +610,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -645,8 +676,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tree_Book/src/BinaryTreeMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0058651">
-          <caret line="155" column="31" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="150" column="2" selection-start-line="150" selection-start-column="2" selection-end-line="150" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree_Book/src/LeastCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0029325">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>

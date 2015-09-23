@@ -123,6 +123,7 @@ public class BinaryTreeMaker{
         if(!(PQ.IsEmpty()||l.IsEmpty()||r.IsEmpty())){N.left=CreateTree_Pre_In(PQ,l); N.right=CreateTree_Pre_In(PQ,r);}
         return N;
     }
+    /*
     public static void main(String ar[]){
         BinaryTreeMaker testtree=new BinaryTreeMaker();
 /*
@@ -145,9 +146,9 @@ public class BinaryTreeMaker{
 //>>>>>>> branch 'master' of https://github.com/sanvsam11/sanT.git
         //testtree.TreeBoundaryPrinter();
         //testtree.ZigzagPrint();
-        testtree.DisplayTree();
+        //testtree.DisplayTree();
         //System.out.println("max:"+testtree.SumatLevels());
-
+/*
         CQueueMaker InQ=new CQueueMaker();
         InQ.push('d');InQ.push('b');InQ.push('e');InQ.push('a');InQ.push('f');InQ.push('c');InQ.push('g');
         CQueueMaker PrQ=new CQueueMaker();
@@ -156,4 +157,5 @@ public class BinaryTreeMaker{
        testtree.PrintInOrder();
        // testtree.DisplayTree();
     }
+*/
 }
