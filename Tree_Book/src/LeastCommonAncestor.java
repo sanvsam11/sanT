@@ -2,13 +2,23 @@
  * Created by sant on 23/9/15.
  */
 public class LeastCommonAncestor {
-
-    tnode pn
-    boolean found=false;
+    static boolean found=false;
+    static char LCA;
     StackMaker TStack=new StackMaker();
+    public void ResetObject(){
+        found=false;TStack.EmptyStack();
+    }
     public void FindPath(tnode n, tnode l){
-        if(n.left!=null&&n.right!=null){
-
+        if(n!=null&&!found)if(n.element!=l.element){
+            TStack.push(n);
+            FindPath(n.left,l);
+            if(!found)FindPath(n.right,l);
+            if(!found)TStack.pop();
+        }else {found=true;TStack.push(n);}
+    }
+    public void LCA_Finder(StackMaker s1, StackMaker s2){
+        while (true){tnode a=s1.pop();tnode b=s2.pop();
+            if(a==b){LCA=a.element;break;}
         }
     }
 
@@ -21,8 +31,11 @@ public class LeastCommonAncestor {
         TestTree.InsertNode('e');TestTree.InsertNode('f');TestTree.InsertNode('g');TestTree.InsertNode('h');
         TestTree.InsertNode('i');TestTree.InsertNode('j');TestTree.InsertNode('k');TestTree.InsertNode('l');
         TestTree.InsertNode('m');TestTree.InsertNode('n');TestTree.InsertNode('o');
-        object.FindPath(TestTree.Root, new tnode('j'));
-        object.TStack.PrintStack();
+        object.FindPath(TestTree.Root, new tnode('j'));TStack1=object.TStack;TStack1.PrintStack();
+        object.ResetObject();
+        object.FindPath(TestTree.Root, new tnode('k'));TStack2=object.TStack;TStack2.PrintStack();
+        object.LCA_Finder(TStack1,TStack2);
+        System.out.println(object.LCA);
 
     }
 }

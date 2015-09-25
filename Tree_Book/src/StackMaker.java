@@ -29,25 +29,31 @@ public class StackMaker {
     public int CountStack(){c=top;Count=0;
         while(c!=null){Count++;c=c.next;}return Count;
     }
-  /*
+    /*
 	public static void main(String ar[]){
-    
+
         tnode a=new tnode('a');
         tnode b=new tnode('b');
         tnode c=new tnode('c');
         tnode d=new tnode('d');
 
         StackMaker teststack=new StackMaker();
+        StackMaker teststack2=new StackMaker();
         teststack.push(a);
         teststack.push(b);
         teststack.push(c);
         teststack.push(d);
+        teststack2.push(a);
+        teststack2.push(b);
+        teststack2.push(c);
+        teststack2.push(d);
         //teststack.PrintStack();
         //System.out.println("pop:"+teststack.pop().element);
         //teststack.PrintStack();
         teststack.pop();
-        System.out.println(teststack.CountStack());
-        
+       // System.out.println(teststack.CountStack());
+        teststack.PrintStack();teststack2.PrintStack();
+
     }
 */
 }
