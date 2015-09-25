@@ -31,9 +31,9 @@ public class LeastCommonAncestor {
         TestTree.InsertNode('e');TestTree.InsertNode('f');TestTree.InsertNode('g');TestTree.InsertNode('h');
         TestTree.InsertNode('i');TestTree.InsertNode('j');TestTree.InsertNode('k');TestTree.InsertNode('l');
         TestTree.InsertNode('m');TestTree.InsertNode('n');TestTree.InsertNode('o');
-        object.FindPath(TestTree.Root, new tnode('j'));TStack1=object.TStack;TStack1.PrintStack();
+        object.FindPath(TestTree.Root, new tnode('j'));object.TStack.CopyStack(TStack1);TStack1.PrintStack();
         object.ResetObject();
-        object.FindPath(TestTree.Root, new tnode('k'));TStack2=object.TStack;TStack2.PrintStack();
+        object.FindPath(TestTree.Root, new tnode('k'));object.TStack.CopyStack(TStack2);TStack2.PrintStack();
         object.LCA_Finder(TStack1,TStack2);
         System.out.println(object.LCA);
 
