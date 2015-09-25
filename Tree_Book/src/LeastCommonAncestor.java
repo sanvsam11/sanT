@@ -3,14 +3,13 @@
  */
 public class LeastCommonAncestor {
 
+    tnode pn
+    boolean found=false;
     StackMaker TStack=new StackMaker();
-    public boolean FindLeafPath(tnode N,tnode L){
-        if(N.left!=null&&N.right!=null){
-            TStack.push(N);
-            if((FindLeafPath(N.left,L)||FindLeafPath(N.right, L)))return true;
-            else {TStack.pop();return false;}
+    public void FindPath(tnode n, tnode l){
+        if(n.left!=null&&n.right!=null){
+
         }
-        else return (N==L)?true:false;
     }
 
     public static void main(String ar[]){
@@ -22,7 +21,7 @@ public class LeastCommonAncestor {
         TestTree.InsertNode('e');TestTree.InsertNode('f');TestTree.InsertNode('g');TestTree.InsertNode('h');
         TestTree.InsertNode('i');TestTree.InsertNode('j');TestTree.InsertNode('k');TestTree.InsertNode('l');
         TestTree.InsertNode('m');TestTree.InsertNode('n');TestTree.InsertNode('o');
-        object.FindLeafPath(TestTree.Root,new tnode('j'));
+        object.FindPath(TestTree.Root, new tnode('j'));
         object.TStack.PrintStack();
 
     }
