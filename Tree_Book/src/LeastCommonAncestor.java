@@ -21,7 +21,7 @@ public class LeastCommonAncestor {
             if(a==b){LCA=a.element;break;}
         }
     }
-
+/*
     public static void main(String ar[]){
         BinaryTreeMaker TestTree=new BinaryTreeMaker();
         StackMaker TStack1=new StackMaker();
@@ -38,4 +38,5 @@ public class LeastCommonAncestor {
         System.out.println(object.LCA);
 
     }
+	*/
 }
