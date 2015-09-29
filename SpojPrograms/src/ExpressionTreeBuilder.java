@@ -29,6 +29,7 @@ public class ExpressionTreeBuilder {
     public char ExpressionTreeEvaluator(tnode c){char ach,bch;int a=0,b=0;
         ach=ExpressionTreeEvaluator(c.left);bch=ExpressionTreeEvaluator(c.right);
 
+<<<<<<< HEAD
         if(c!=null){
             switch (c.element){
                 case '+':solution=a+b;break;
@@ -39,4 +40,9 @@ public class ExpressionTreeBuilder {
             }
         }
     return c.element;}
+=======
+    public int ExpressionTreeEvaluator(int [] input){int answer=0;
+       
+    return answer;}
+>>>>>>> 147c11108b8769f803bc25d93056a91f3897f0ea
 }
