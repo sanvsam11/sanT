@@ -27,6 +27,6 @@ public class ExpressionTreeBuilder {
     return c;}
 
     public int ExpressionTreeEvaluator(int [] input){int answer=0;
-        if()
+       
     return answer;}
 }
