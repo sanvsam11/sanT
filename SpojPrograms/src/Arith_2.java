@@ -35,6 +35,7 @@ public class Arith_2
 		System.out.println(s);
 		System.out.println(" ");
 	}
+	/*
 	public static void main(String ar[])
 	{
 		int count;
@@ -45,4 +46,5 @@ public class Arith_2
 			ob.Operation_Printer(get_arith_input.next());
 		count--;}
 	}
+	*/
 }
