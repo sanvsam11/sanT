@@ -21,7 +21,7 @@ public class LeastCommonAncestor {
             if(a==b){LCA=a.element;break;}
         }
     }
-/*
+
     public static void main(String ar[]){
         BinaryTreeMaker TestTree=new BinaryTreeMaker();
         StackMaker TStack1=new StackMaker();
@@ -31,12 +31,12 @@ public class LeastCommonAncestor {
         TestTree.InsertNode('e');TestTree.InsertNode('f');TestTree.InsertNode('g');TestTree.InsertNode('h');
         TestTree.InsertNode('i');TestTree.InsertNode('j');TestTree.InsertNode('k');TestTree.InsertNode('l');
         TestTree.InsertNode('m');TestTree.InsertNode('n');TestTree.InsertNode('o');
-        object.FindPath(TestTree.Root, new tnode('j'));object.TStack.CopyStack(TStack1);TStack1.PrintStack();
+        object.FindPath(TestTree.Root, new tnode('c'));object.TStack.CopyStack(TStack1);TStack1.PrintStack();
         object.ResetObject();
-        object.FindPath(TestTree.Root, new tnode('k'));object.TStack.CopyStack(TStack2);TStack2.PrintStack();
+        object.FindPath(TestTree.Root, new tnode('b'));object.TStack.CopyStack(TStack2);TStack2.PrintStack();
         object.LCA_Finder(TStack1,TStack2);
         System.out.println(object.LCA);
 
     }
-	*/
+
 }

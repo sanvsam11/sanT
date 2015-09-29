@@ -25,8 +25,18 @@ public class ExpressionTreeBuilder {
         }
     }
     return c;}
+    int  valuesinput[],solution=0;
+    public char ExpressionTreeEvaluator(tnode c){char ach,bch;int a=0,b=0;
+        ach=ExpressionTreeEvaluator(c.left);bch=ExpressionTreeEvaluator(c.right);
 
-    public int ExpressionTreeEvaluator(int [] input){int answer=0;
-        if()
-    return answer;}
+        if(c!=null){
+            switch (c.element){
+                case '+':solution=a+b;break;
+                case '-':solution=a-b;break;
+                case '*':solution=a*b;break;
+                case '/':solution=a/b;break;
+                default:
+            }
+        }
+    return c.element;}
 }
