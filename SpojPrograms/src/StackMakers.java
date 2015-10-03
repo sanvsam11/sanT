@@ -1,20 +1,22 @@
 /**
  * Created by sant on 19/9/15.
  */
-public class StackMaker {
-    qnode top,c;int Count=0;
+public class StackMakers {
+    qnodes top,c;int Count=0;
 
-    public StackMaker(){
+    public StackMakers(){
         top=null;
     }
 
-    public void push(tnode element){
+    public void push(tnodes element){
         if(element!=null)
-        if(top==null){qnode newnode=new qnode(element);top=newnode;}
-        else{qnode newnode = new qnode(element);newnode.next=top;top=newnode;}
+        if(top==null){
+            qnodes newnode=new qnodes(element);top=newnode;}
+        else{
+            qnodes newnode = new qnodes(element);newnode.next=top;top=newnode;}
     }
 
-    public tnode pop(){ tnode tmp;
+    public tnodes pop(){ tnodes tmp;
         if(top==null)return null;
         else {tmp=top.element;top=top.next;return tmp;}
     }
@@ -29,17 +31,18 @@ public class StackMaker {
     public int CountStack(){c=top;Count=0;
         while(c!=null){Count++;c=c.next;}return Count;
     }
-    public void CopyStack(StackMaker s2){StackMaker temp=new StackMaker();
+    public void CopyStack(StackMaker s2){
+        StackMaker temp=new StackMaker();
     while (!this.EmptyStackCheck()) temp.push(this.pop());
     while (!temp.EmptyStackCheck()) s2.push(temp.pop());
     }
     /*
 	public static void main(String ar[]){
 
-        tnode a=new tnode('a');
-        tnode b=new tnode('b');
-        tnode c=new tnode('c');
-        tnode d=new tnode('d');
+        tnodes a=new tnodes('a');
+        tnodes b=new tnodes('b');
+        tnodes c=new tnodes('c');
+        tnodes d=new tnodes('d');
 
         StackMaker teststack=new StackMaker();
         StackMaker teststack2=new StackMaker();
