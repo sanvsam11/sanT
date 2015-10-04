@@ -2,10 +2,10 @@
  * Created by sant on 19/9/15.
  */
 public class qnode {
-    tnode element;
-    qnode next;
+    tnodes element;
+    qnodes next;
 
-    public qnode(tnode element){
+    public qnode(tnodes element){
         this.element=element;next=null;
     }
 }

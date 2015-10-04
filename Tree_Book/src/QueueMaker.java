@@ -2,28 +2,30 @@
  * Created by sant on 19/9/15.
  */
 public class QueueMaker {
-    qnode head,tail;
+    qnodes head,tail;
 
-    public QueueMaker(tnode element){
-        qnode newnode= new qnode(element);
+    public QueueMaker(tnodes element){
+        qnodes newnode= new qnodes(element);
         head=newnode;tail=newnode;
     }
     public QueueMaker(){head=null;tail=null;}
 
-    public void push(tnode element){
-        if(head==null) {  qnode newnode=new qnode(element);head=newnode;tail=newnode;}
+    public void push(tnodes element){
+        if(head==null) {  qnodes newnode=new qnodes(element);head=newnode;tail=newnode;}
         else {
-            qnode newnode=new qnode(element);head.next=newnode;head=newnode;
+            qnodes newnode=new qnodes(element);head.next=newnode;head=newnode;
         }
     }
 
-    public tnode pop(){tnode temp;
+    public tnodes pop(){
+        tnodes temp;
         if(tail==null)return null;
         else if(tail!=head){temp=tail.element;tail=tail.next;return temp;}
         else {temp=tail.element;tail=head=null;return temp;}
     }
     public void EmptyQueue(){head=tail=null;}
-    public void PrintQueue(){qnode c=tail;
+    public void PrintQueue(){
+        qnodes c=tail;
         while (true){
             System.out.println(c.element.element);if(c==head)break;
 
@@ -32,10 +34,10 @@ public class QueueMaker {
 /*
     public static void main(String ar[]){
 
-        QueueMaker testq=new QueueMaker();
-        tnode a=new tnode('a');
-        tnode b=new tnode('b');
-        tnode c=new tnode('c');
+        QueueMakers testq=new QueueMakers();
+        tnodes a=new tnodes('a');
+        tnodes b=new tnodes('b');
+        tnodes c=new tnodes('c');
 
         testq.push(a);
         testq.push(b);
