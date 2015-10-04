@@ -31,8 +31,8 @@ public class StackMakers {
     public int CountStack(){c=top;Count=0;
         while(c!=null){Count++;c=c.next;}return Count;
     }
-    public void CopyStack(StackMaker s2){
-        StackMaker temp=new StackMaker();
+    public void CopyStack(StackMakers s2){
+        StackMakers temp=new StackMakers();
     while (!this.EmptyStackCheck()) temp.push(this.pop());
     while (!temp.EmptyStackCheck()) s2.push(temp.pop());
     }
