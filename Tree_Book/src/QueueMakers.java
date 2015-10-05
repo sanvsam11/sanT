@@ -1,14 +1,14 @@
 /**
  * Created by sant on 19/9/15.
  */
-public class QueueMaker {
+public class QueueMakers {
     qnodes head,tail;
 
-    public QueueMaker(tnodes element){
+    public QueueMakers(tnodes element){
         qnodes newnode= new qnodes(element);
         head=newnode;tail=newnode;
     }
-    public QueueMaker(){head=null;tail=null;}
+    public QueueMakers(){head=null;tail=null;}
 
     public void push(tnodes element){
         if(head==null) {  qnodes newnode=new qnodes(element);head=newnode;tail=newnode;}

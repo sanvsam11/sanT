@@ -1,11 +1,11 @@
 /**
  * Created by sant on 21/9/15.
  */
-public class CQueueMaker {
+public class CQueueMakers {
 
     cqnodes Head,Tail,c;
 
-    public CQueueMaker(){Head=Tail=null;}
+    public CQueueMakers(){Head=Tail=null;}
     public void push(char c){
         if(Head==null){
             cqnodes newqnode=new cqnodes(c);Head=newqnode;Tail=newqnode;}
