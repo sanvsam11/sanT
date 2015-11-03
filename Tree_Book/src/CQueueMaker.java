@@ -1,16 +1,16 @@
 /**
  * Created by sant on 21/9/15.
  */
-public class CQueueMakers {
+public class CQueueMaker {
 
-    cqnodes Head,Tail,c;
+    cqnode Head,Tail,c;
 
-    public CQueueMakers(){Head=Tail=null;}
+    public CQueueMaker(){Head=Tail=null;}
     public void push(char c){
         if(Head==null){
-            cqnodes newqnode=new cqnodes(c);Head=newqnode;Tail=newqnode;}
+            cqnode newqnode=new cqnode(c);Head=newqnode;Tail=newqnode;}
         else{
-            cqnodes newqnode=new cqnodes(c);Head.next=newqnode;Head=newqnode;}
+            cqnode newqnode=new cqnode(c);Head.next=newqnode;Head=newqnode;}
     }
     public char pop(){char temp;
         if(Tail==Head){temp=Tail.element;Tail=Head=null;return temp;}

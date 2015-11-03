@@ -2,21 +2,21 @@
  * Created by sant on 19/9/15.
  */
 public class StackMaker {
-    qnodes top,c;int Count=0;
+    qnode top,c;int Count=0;
 
     public StackMaker(){
         top=null;
     }
 
-    public void push(tnodes element){
+    public void push(tnode element){
         if(element!=null)
         if(top==null){
-            qnodes newnode=new qnodes(element);top=newnode;}
+            qnode newnode=new qnode(element);top=newnode;}
         else{
-            qnodes newnode = new qnodes(element);newnode.next=top;top=newnode;}
+            qnode newnode = new qnode(element);newnode.next=top;top=newnode;}
     }
 
-    public tnodes pop(){ tnodes tmp;
+    public tnode pop(){ tnode tmp;
         if(top==null)return null;
         else {tmp=top.element;top=top.next;return tmp;}
     }
@@ -39,10 +39,10 @@ public class StackMaker {
     /*
 	public static void main(String ar[]){
 
-        tnodes a=new tnodes('a');
-        tnodes b=new tnodes('b');
-        tnodes c=new tnodes('c');
-        tnodes d=new tnodes('d');
+        tnode a=new tnode('a');
+        tnode b=new tnode('b');
+        tnode c=new tnode('c');
+        tnode d=new tnode('d');
 
         StackMaker teststack=new StackMaker();
         StackMaker teststack2=new StackMaker();

@@ -3,14 +3,14 @@
  */
 public class CQueueMakers {
 
-    cqnodes Head,Tail,c;
+    cqnode Head,Tail,c;
 
     public CQueueMakers(){Head=Tail=null;}
     public void push(char c){
         if(Head==null){
-            cqnodes newqnode=new cqnodes(c);Head=newqnode;Tail=newqnode;}
+            cqnode newqnode=new cqnode(c);Head=newqnode;Tail=newqnode;}
         else{
-            cqnodes newqnode=new cqnodes(c);Head.next=newqnode;Head=newqnode;}
+            cqnode newqnode=new cqnode(c);Head.next=newqnode;Head=newqnode;}
     }
     public char pop(){char temp;
         if(Tail==Head){temp=Tail.element;Tail=Head=null;return temp;}
@@ -23,7 +23,7 @@ public class CQueueMakers {
 /*
 	public static void main(String ar[]){
 	
-	CQueueMakers test=new CQueueMakers();
+	CQueueMaker test=new CQueueMaker();
 	test.push('a');
 	test.push('b');
 	test.push('c');

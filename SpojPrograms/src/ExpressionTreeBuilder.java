@@ -2,31 +2,31 @@
  * Created by sant on 27/9/15.
  */
 public class ExpressionTreeBuilder {
-    CQueueMakers input=new CQueueMakers();
+    CQueueMaker input=new CQueueMaker();
 
-    tnodes Root;
-    public ExpressionTreeBuilder(CQueueMakers input){
+    tnode Root;
+    public ExpressionTreeBuilder(CQueueMaker input){
         this.input=input;
     }
 
-    public tnodes TreeBuilder(tnodes c){if(!input.IsEmpty()) {
+    public tnode TreeBuilder(tnode c){if(!input.IsEmpty()) {
         char ch = input.pop();
         if (ch == '+' || ch == '-' || ch == '*' || ch == '/') {
             if (Root == null) {
-                Root = new tnodes(ch);
+                Root = new tnode(ch);
                 c = Root;
             } else {
-                c = new tnodes(ch);
+                c = new tnode(ch);
             }
             c.left = TreeBuilder(c.left);
             c.right = TreeBuilder(c.right);
         } else {
-            c = new tnodes(ch);
+            c = new tnode(ch);
         }
     }
     return c;}
     int  valuesinput[],solution=0;
-    public char ExpressionTreeEvaluator(tnodes c){char ach,bch;int a=0,b=0;
+    public char ExpressionTreeEvaluator(tnode c){char ach,bch;int a=0,b=0;
         ach=ExpressionTreeEvaluator(c.left);bch=ExpressionTreeEvaluator(c.right);
 
 //<<<<<<< HEAD

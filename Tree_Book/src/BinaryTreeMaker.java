@@ -2,23 +2,23 @@
  * Created by sant on 14/9/15.
  */
 public class BinaryTreeMaker{
-    QueueMakers BTEnabler=new QueueMakers();
-    QueueMakers BTQueue =new QueueMakers();
-    QueueMakers ZZQ=new QueueMakers();
+    QueueMaker BTEnabler=new QueueMaker();
+    QueueMaker BTQueue =new QueueMaker();
+    QueueMaker ZZQ=new QueueMaker();
     StackMaker RZZQ=new StackMaker();
     StackMaker BTStack=new StackMaker();
-    tnodes Root=null,c;int max=0,lsum=0;boolean zz=true;
+    tnode Root=null,c;int max=0,lsum=0;boolean zz=true;
 
     public BinaryTreeMaker(){Root=null;}
     public void InsertNode(char element){
         while(true){
             if(Root==null){
-                tnodes newnode=new tnodes(element);c=Root=newnode;BTQueue.push(newnode);break;}
+                tnode newnode=new tnode(element);c=Root=newnode;BTQueue.push(newnode);break;}
             else{
                 if(c.left==null){
-                    tnodes newnode=new tnodes(element);c.left=newnode;BTEnabler.push(newnode);break;}
+                    tnode newnode=new tnode(element);c.left=newnode;BTEnabler.push(newnode);break;}
                 else if(c.right==null) {
-                    tnodes newnode=new tnodes(element);c.right=newnode;BTEnabler.push(newnode);break;}
+                    tnode newnode=new tnode(element);c.right=newnode;BTEnabler.push(newnode);break;}
                 else c=BTEnabler.pop();
             }
         }
@@ -27,7 +27,7 @@ public class BinaryTreeMaker{
     public int SumatLevels(){
         BTQueue.EmptyQueue();
         BTQueue.push(Root);
-        tnodes mark=new tnodes('0');
+        tnode mark=new tnode('0');
         BTQueue.push(mark);
         while (true){c= BTQueue.pop();
             if(c!=null&&c!=mark) {lsum=lsum+c.element;
@@ -52,7 +52,7 @@ public class BinaryTreeMaker{
         }
     }
 	public void ZigzagPrint(){BTQueue.EmptyQueue();BTQueue.push(Root);ZZQ.push(Root);
-        tnodes z=new tnodes('0');BTQueue.push(z);
+        tnode z=new tnode('0');BTQueue.push(z);
         while(true){c= BTQueue.pop();
             if(c==null)break;
             else if(c==z){
@@ -119,11 +119,11 @@ public class BinaryTreeMaker{
         }
     }
 //Aide configured
-    public tnodes CreateTree_Pre_In(CQueueMakers PQ, CQueueMakers IQ){char PC,IC;
+    public tnode CreateTree_Pre_In(CQueueMaker PQ, CQueueMaker IQ){char PC,IC;
         PC=PQ.pop();
-        tnodes N=new tnodes(PC);
-        CQueueMakers l=new CQueueMakers();
-        CQueueMakers r=new CQueueMakers();
+        tnode N=new tnode(PC);
+        CQueueMaker l=new CQueueMaker();
+        CQueueMaker r=new CQueueMaker();
         while(true){IC=IQ.pop();
             if(PC==IC)break; l.push(IC);}
         while (!IQ.IsEmpty())r.push(IQ.pop());
@@ -156,9 +156,9 @@ public class BinaryTreeMaker{
         //testtree.DisplayTree();
         //System.out.println("max:"+testtree.SumatLevels());
 /*
-        CQueueMakers InQ=new CQueueMakers();
+        CQueueMaker InQ=new CQueueMaker();
         InQ.push('d');InQ.push('b');InQ.push('e');InQ.push('a');InQ.push('f');InQ.push('c');InQ.push('g');
-        CQueueMakers PrQ=new CQueueMakers();
+        CQueueMaker PrQ=new CQueueMaker();
         PrQ.push('a');PrQ.push('b');PrQ.push('d');PrQ.push('e');PrQ.push('c');PrQ.push('f');PrQ.push('g');
         testtree.Root=testtree.CreateTree_Pre_In(PrQ,InQ);
        testtree.PrintInOrder();
