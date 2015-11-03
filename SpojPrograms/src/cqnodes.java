@@ -3,7 +3,7 @@
  */
 public class cqnodes {
     char element;
-    cqnodes next;
+    cqnode next;
 
     public cqnodes(char element){this.element=element;next=null;}
 }

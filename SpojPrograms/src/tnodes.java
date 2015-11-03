@@ -3,7 +3,7 @@
  */
 public class tnodes {
     char element;
-    tnodes left,right;
+    tnode left,right;
 
     public tnodes(char element){
         this.element=element;left=right=null;
