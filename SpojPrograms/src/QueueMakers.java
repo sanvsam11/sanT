@@ -2,30 +2,30 @@
  * Created by sant on 19/9/15.
  */
 public class QueueMakers {
-    qnode head,tail;
+    qnodes head,tail;
 
-    public QueueMakers(tnode element){
-        qnode newnode= new qnode(element);
+    public QueueMakers(tnodes element){
+        qnodes newnode= new qnodes(element);
         head=newnode;tail=newnode;
     }
     public QueueMakers(){head=null;tail=null;}
 
-    public void push(tnode element){
-        if(head==null) {  qnode newnode=new qnode(element);head=newnode;tail=newnode;}
+    public void push(tnodes element){
+        if(head==null) {  qnodes newnode=new qnodes(element);head=newnode;tail=newnode;}
         else {
-            qnode newnode=new qnode(element);head.next=newnode;head=newnode;
+            qnodes newnode=new qnodes(element);head.next=newnode;head=newnode;
         }
     }
 
-    public tnode pop(){
-        tnode temp;
+    public tnodes pop(){
+        tnodes temp;
         if(tail==null)return null;
         else if(tail!=head){temp=tail.element;tail=tail.next;return temp;}
         else {temp=tail.element;tail=head=null;return temp;}
     }
     public void EmptyQueue(){head=tail=null;}
     public void PrintQueue(){
-        qnode c=tail;
+        qnodes c=tail;
         while (true){
             System.out.println(c.element.element);if(c==head)break;
 

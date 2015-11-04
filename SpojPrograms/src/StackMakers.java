@@ -2,21 +2,21 @@
  * Created by sant on 19/9/15.
  */
 public class StackMakers {
-    qnode top,c;int Count=0;
+    qnodes top,c;int Count=0;
 
     public StackMakers(){
         top=null;
     }
 
-    public void push(tnode element){
+    public void push(tnodes element){
         if(element!=null)
         if(top==null){
-            qnode newnode=new qnode(element);top=newnode;}
+            qnodes newnode=new qnodes(element);top=newnode;}
         else{
-            qnode newnode = new qnode(element);newnode.next=top;top=newnode;}
+            qnodes newnode = new qnodes(element);newnode.next=top;top=newnode;}
     }
 
-    public tnode pop(){ tnode tmp;
+    public tnodes pop(){ tnodes tmp;
         if(top==null)return null;
         else {tmp=top.element;top=top.next;return tmp;}
     }
