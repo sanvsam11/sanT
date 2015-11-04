@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/SpojPrograms/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SpojPrograms/bin" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Tree_Book/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GeeksForGeeks/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
