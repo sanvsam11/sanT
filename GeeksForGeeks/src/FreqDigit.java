@@ -6,9 +6,11 @@ import java.util.*;public class FreqDigit//find the most reccuring digit in the 
 		int input = in.nextInt();
 		int N=0,c=0;
 		while(input>0){
-			N = input % 10;input=input/10;
-			
-			while(input%10==N)c++;
+			int d = input % 10,dc=0;input=input/10;	
+			while(input%10==d)dc++;
+			if(dc>c)N=d;
+			else if(dc==c)N=N>d?N:d;
 		}
+		System.out.println(N);
 	}
 }
