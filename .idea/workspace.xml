@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/CQueueMakers.class" afterPath="$PROJECT_DIR$/Tree_Book/out/CQueueMakers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/ExpressionTreeBuilder.class" afterPath="$PROJECT_DIR$/Tree_Book/out/ExpressionTreeBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/IntStackMaker.class" afterPath="$PROJECT_DIR$/Tree_Book/out/IntStackMaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/QueueMakers.class" afterPath="$PROJECT_DIR$/Tree_Book/out/QueueMakers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/StackMakers.class" afterPath="$PROJECT_DIR$/Tree_Book/out/StackMakers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/cqnodes.class" afterPath="$PROJECT_DIR$/Tree_Book/out/cqnodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/qnodes.class" afterPath="$PROJECT_DIR$/Tree_Book/out/qnodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree_Book/out/tnodes.class" afterPath="$PROJECT_DIR$/Tree_Book/out/tnodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeeksForGeeks/src/ExponentModulation.java" afterPath="$PROJECT_DIR$/GeeksForGeeks/src/ExponentModulation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sanT.iml" afterPath="$PROJECT_DIR$/.idea/sanT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="" />
     <ignored path="sanT.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
