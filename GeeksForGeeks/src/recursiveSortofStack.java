@@ -4,8 +4,13 @@ public class recursiveSortofStack
 	int x,t;
 	public void recursiveSort(intStack s){
 		x=s.pop();
-		if(s.top()>x){t=s.pop();s.push(x);s.push(t);}
-		else if(!s.isEmpty()) recursiveSort(s);
+		if(!s.isEmpty()) recursiveSort(s);
+
+		if(s.isEmpty()) s.push(x);
+		else {
+			if(s.top()>x)recursiveSort(s);
+			else s.push(x);
+		}
 	}
 	public static void main(String ar[]){
 	
