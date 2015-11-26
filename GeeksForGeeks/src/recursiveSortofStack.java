@@ -1,8 +1,8 @@
 public class recursiveSortofStack
 //sort a stack using recursion
 {
-	int x,t;
-	public void recursiveSort(intStack s,boolean thoor){
+	
+	public void recursiveSort(intStack s,boolean thoor){int x=s.top();
 		if(!thoor)if(!s.isEmpty()){x=s.pop();
 		 recursiveSort(s,false);}
 
