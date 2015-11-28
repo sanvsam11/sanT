@@ -1,9 +1,9 @@
 public class recursiveSortofStack
 //sort a stack using recursion
 {
-	int x,t;
+	int t;
 	public void recursiveSort(intStack s){
-		x=s.pop();
+		int x=s.pop();
 		if(!s.isEmpty()) recursiveSort(s);
 
 		if(s.isEmpty()) s.push(x);
