@@ -14,14 +14,16 @@ public class recursiveSortofStack
 		 recursiveSort(s,false);}
           }
 //>>>>>>> ce8154347d073c83a3b7a04030a5345d3a5a4235
-		if(s.isEmpty()) s.push(x);
-		else {
-			if(s.top()>x)recursiveSort(s,true);
-			else s.push(x);
+		else{
+			if(s.isEmpty()||x>s.top())s.push(x);
+			else {
+				int y=s.pop();recursiveSort(s,true);s.push(y);
+			}
 		}
-		
-		
 	}
+		
+		
+
 	public static void main(String ar[]){
 	
 		recursiveSortofStack ob=new recursiveSortofStack();
