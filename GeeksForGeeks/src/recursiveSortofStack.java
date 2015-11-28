@@ -3,9 +3,9 @@ public class recursiveSortofStack
 {
 	
 	public void recursiveSort(intStack s,boolean thoor){int x=s.top();
-		if(!thoor)if(!s.isEmpty()){x=s.pop();
+		if(!thoor){if(!s.isEmpty()){x=s.pop();
 		 recursiveSort(s,false);}
-
+          }
 		if(s.isEmpty()) s.push(x);
 		else {
 			if(s.top()>x)recursiveSort(s,true);
