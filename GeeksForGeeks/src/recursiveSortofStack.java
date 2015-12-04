@@ -9,16 +9,14 @@ public class recursiveSortofStack
 
 //=======
 	
-<<<<<<< HEAD
-	public void recursiveSort(intStack s,boolean thoor,int x){x=s.top();
-		if(!thoor){if(!s.isEmpty()){x=s.pop();
-		 recursiveSort(s,false,x);}
-=======
+//<<<<<<< HEAD
+
+//=======
 	public void recursiveSort(intStack s,boolean thoor,int x){
 		if(!thoor){
 		 if(!s.isEmpty()){x=s.pop(); recursiveSort(s,false,x);}
 		 else recursiveSort(s,true,x);
->>>>>>> c3b49cf8582021865df60648a0a7d88647179781
+//>>>>>>> c3b49cf8582021865df60648a0a7d88647179781
           }
 //>>>>>>> ce8154347d073c83a3b7a04030a5345d3a5a4235
 		else{
