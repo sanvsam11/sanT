@@ -9,15 +9,15 @@ public class recursiveSortofStack
 
 //=======
 	
-	public void recursiveSort(intStack s,boolean thoor){int x=s.top();
+	public void recursiveSort(intStack s,boolean thoor,int x){x=s.top();
 		if(!thoor){if(!s.isEmpty()){x=s.pop();
-		 recursiveSort(s,false);}
+		 recursiveSort(s,false,x);}
           }
 //>>>>>>> ce8154347d073c83a3b7a04030a5345d3a5a4235
 		else{
 			if(s.isEmpty()||x>s.top())s.push(x);
 			else {
-				int y=s.pop();recursiveSort(s,true);s.push(y);
+				int y=s.pop();recursiveSort(s,true,x);s.push(y);
 			}
 		}
 	}
@@ -30,7 +30,7 @@ public class recursiveSortofStack
 		intStack s=new intStack(3);
 		s.push(2);
 		s.push(1);
-		ob.recursiveSort(s,false);
+		ob.recursiveSort(s,false,0);
 		s.printStack();
 	}
 }
