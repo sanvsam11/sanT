@@ -13,9 +13,9 @@ public class shiftpn {
         return sh;
     }
     public static void main(String args[]){
-
+		shiftpn ob = new shiftpn();
         Scanner in = new Scanner(System.in);
         String input = in.next();
-        System.out.println(input);
+        System.out.println(ob.shiftcheck(input));
     }
 }
