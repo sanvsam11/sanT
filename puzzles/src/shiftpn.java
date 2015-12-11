@@ -6,9 +6,8 @@ public class shiftpn {
     public int shiftcheck(String pn){
         int l = pn.length(),sh=0;boolean s=false;
         for (int i=0;i<l;i++){
-            if(s==false&&pn.charAt(i)=='+')s=!s;
-            else if(s==true&&pn.charAt(i)=='-') s=!s;
-            else sh++;
+            if(!((s==false&&pn.charAt(i)=='+')||(s==true&&pn.charAt(i)=='-'))) sh++;
+            s=!s;
         }
         return sh;
     }
