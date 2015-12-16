@@ -3,9 +3,10 @@ import java.util.*;public class bucket
 {
 	boolean a[];
 	public void sortfunction(int N[],int n,int m){boolean a[]=new boolean[m];
-		for(int i=0;i<n;i++){
-			
-		}
+		for(int i=0;i<n;i++)a[N[i]]=true;
+	}
+	public void printSorted(int m){
+		for(int i=0;i<m;i++)if(a[i])System.out.println(i);
 	}
 	public static void main(String ar[]){
 		bucket ob = new bucket();
@@ -13,5 +14,6 @@ import java.util.*;public class bucket
 		int n = in.nextInt(),N[]=new int[n],m=0;
 		for(int i=0;i<n;i++) {N[i]=in.nextInt();if(N[i]>m)m=N[i];}
 		ob.sortfunction(N,n,m);
+		ob.printSorted(m);
 	}
 }
