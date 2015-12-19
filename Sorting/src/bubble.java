@@ -3,11 +3,11 @@ public class bubble
 {
 	int i=0;
 	public int[] bubbleSortFunction(int a[],int n){
-		for(int i=0;i<n;i++)
-			for(int j=i+1;j<n;j++)
+		for(int i=0;i<2;i++)
+			for(int j=0;j<n-1;j++)
 			{int x;
-				if(a[i]>a[j]){
-					x=a[i];a[i]=a[j];a[j]=x;
+				if(a[j]>a[j+1]){
+					x=a[j];a[j]=a[j+1];a[j+1]=x;
 				}
 			}
 	return a;}
