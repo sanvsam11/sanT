@@ -2,108 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/Arith$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/Arith$Formula$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/Arith$Formula.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/Arith.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/Arith_2$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/Arith_2.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/CQueueMaker$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/CQueueMaker.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/CQueueMakers$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/CQueueMakers.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/ExpressionTreeBuilder$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/ExpressionTreeBuilder.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/LifeUniverseandEverything$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/LifeUniverseandEverything.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/LinkedListMaker$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/LinkedListMaker.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/Linked_List_Fold$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/Linked_List_Fold.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/NextPalindrome$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/NextPalindrome.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/QueueMaker$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/QueueMaker.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/QueueMakers$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/QueueMakers.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/SquareRootInteger$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/SquareRootInteger.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/StackMaker$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/StackMaker.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/StackMakers$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/StackMakers.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/adrt/ADRT.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/adrt/ADRTLogCatReader.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/adrt/ADRTLongMap.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/adrt/ADRTLongSet.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/adrt/ADRTMetadata.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/adrt/ADRTReceiver.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/adrt/ADRTReflector.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/adrt/ADRTSender.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/adrt/ADRTThread.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/adrt/ADRTThreadLocal.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/cqnode$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/cqnode.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/cqnodes$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/cqnodes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/dex/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/dex/classes.dex.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/node$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/node.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/qnode$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/qnode.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/qnodes$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/qnodes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/tnode$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/tnode.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/tnodes$0$debug.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/debug/tnodes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/release/Arith$Formula.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/release/Arith.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/release/LifeUniverseandEverything.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/release/NextPalindrome.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/release/adrt/ADRTLogCatReader.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/release/adrt/ADRTSender.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/release/dex/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/Test/release/dex/classes.dex.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/Arith$Formula.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/Arith.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/Arith_2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/BinaryTreeMaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/CQueueMaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/CQueueMakers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/CountFromTail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/ExponentModulation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/ExpressionTreeBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/FreqDigit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/GraphMaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/IntStackMaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/LeastCommonAncestor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/LinkedListMaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/Linked_List_Fold.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/NextPalindrome.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/QueueMaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/QueueMakers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/SquareRootInteger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/StackMaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/StackMakers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/StackSortRecursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/cqnode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/cqnodes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/gedge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/gnode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/intStack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/node.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/numRange.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/qnode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/qnodes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/recursiveSortofStack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/sNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/squaresinrect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/tnode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tree_Book/out/tnodes.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sanT.iml" afterPath="$PROJECT_DIR$/.idea/sanT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/src/bubble.java" afterPath="$PROJECT_DIR$/Sorting/src/bubble.java" />
     </list>
     <ignored path="sanT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,56 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExponentModulation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeeksForGeeks/src/ExponentModulation.java">
+      <file leaf-file-name="bubble.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sorting/src/bubble.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="squaresinrect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeeksForGeeks/src/squaresinrect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recursiveSortofStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeeksForGeeks/src/recursiveSortofStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shiftpn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/puzzles/src/shiftpn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.7292576">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bucket.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sorting/src/bucket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75630254">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -228,6 +85,7 @@
         <option value="$PROJECT_DIR$/GeeksForGeeks/src/squaresinrect.java" />
         <option value="$PROJECT_DIR$/puzzles/src/shiftpn.java" />
         <option value="$PROJECT_DIR$/Sorting/src/bucket.java" />
+        <option value="$PROJECT_DIR$/Sorting/src/bubble.java" />
       </list>
     </option>
   </component>
@@ -440,22 +298,7 @@
       <recent name="$PROJECT_DIR$/Tree_Book/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bucket">
-    <configuration default="false" name="ExponentModulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ExponentModulation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sanT" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.bubble">
     <configuration default="false" name="recursiveSortofStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="recursiveSortofStack" />
@@ -504,6 +347,21 @@
     <configuration default="false" name="bucket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="bucket" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sanT" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="bubble" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -664,19 +522,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ExponentModulation" />
-      <item index="1" class="java.lang.String" itemvalue="Application.recursiveSortofStack" />
-      <item index="2" class="java.lang.String" itemvalue="Application.squaresinrect" />
-      <item index="3" class="java.lang.String" itemvalue="Application.shiftpn" />
-      <item index="4" class="java.lang.String" itemvalue="Application.bucket" />
+      <item index="0" class="java.lang.String" itemvalue="Application.recursiveSortofStack" />
+      <item index="1" class="java.lang.String" itemvalue="Application.squaresinrect" />
+      <item index="2" class="java.lang.String" itemvalue="Application.shiftpn" />
+      <item index="3" class="java.lang.String" itemvalue="Application.bucket" />
+      <item index="4" class="java.lang.String" itemvalue="Application.bubble" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.bucket" />
-        <item index="1" class="java.lang.String" itemvalue="Application.shiftpn" />
-        <item index="2" class="java.lang.String" itemvalue="Application.squaresinrect" />
-        <item index="3" class="java.lang.String" itemvalue="Application.recursiveSortofStack" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ExponentModulation" />
+        <item index="0" class="java.lang.String" itemvalue="Application.bubble" />
+        <item index="1" class="java.lang.String" itemvalue="Application.bucket" />
+        <item index="2" class="java.lang.String" itemvalue="Application.shiftpn" />
+        <item index="3" class="java.lang.String" itemvalue="Application.squaresinrect" />
+        <item index="4" class="java.lang.String" itemvalue="Application.recursiveSortofStack" />
       </list>
     </recent_temporary>
   </component>
@@ -712,7 +570,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3159722" sideWeight="0.5027494" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980362" sideWeight="0.509434" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -722,7 +580,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24109174" sideWeight="0.49056605" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -770,7 +628,7 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -779,14 +637,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GeeksForGeeks/src/squaresinrect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeeksForGeeks/src/recursiveSortofStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -800,7 +650,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1147,18 +997,29 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorting/src/bucket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75630254">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting/src/bubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7292576">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
           </folding>
         </state>
       </provider>
