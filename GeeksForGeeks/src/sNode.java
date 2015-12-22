@@ -1,9 +1,9 @@
 public class sNode
 {
-		int element;
+		char element;
 		sNode next;
 
-		public sNode(int element){
+		public sNode(char element){
 				this.element=element;next=null;
 			}
 }
