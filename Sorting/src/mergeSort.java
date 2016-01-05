@@ -5,7 +5,7 @@ import java.util.*;
 public class mergeSort {
 
     public int[] mergeSortFunction(int[] a,int l,int r){
-        int x=0,d=l-r,m=(l+r)/2;
+        int x=0,d=r-l,m=(l+r)/2;
         if(d==1&&a[l]>a[r]){x=a[l];a[l]=a[r];a[r]=x;}
         else if(d==2&&(a[l]>a[l+1]||a[l+1]>a[r])){
             for(int i=l;i<r;i++)
