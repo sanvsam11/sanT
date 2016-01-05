@@ -8,8 +8,8 @@ public class mergeSort {
         int x=0,d=r-l,m=(l+r)/2;
         if(d==1&&a[l]>a[r]){x=a[l];a[l]=a[r];a[r]=x;}
         else if(d==2&&(a[l]>a[l+1]||a[l+1]>a[r])){
-            for(int i=l;i<r;i++)
-                for(int j=i+1;j<r;j++)
+            for(int i=l;i<=r;i++)
+                for(int j=i+1;j<=r;j++)
                     if(a[i]>a[j]){x=a[i];a[i]=a[j];a[j]=x;}
         }
         else {
@@ -17,7 +17,7 @@ public class mergeSort {
             a=mergeSortFunction(a,m+1,r);
             if(a[m]>a[m+1])
                 for(int i=m+1;i<=r;i++)
-                    for(int j=m;j>=l;j--){
+                    for(int j=m;j>=l;j--){  //correction needed
                         x=a[i];a[i]=a[j];a[j]=x;
                     }
         }
