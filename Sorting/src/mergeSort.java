@@ -18,7 +18,7 @@ public class mergeSort {
             if(a[m]>a[m+1])
                 for(int i=m+1;i<=r;i++)
                     for(int j=m;j>=l;j--){  //correction needed
-                        x=a[i];a[i]=a[j];a[j]=x;
+                        x=a[j+1];a[j+1]=a[j];a[j]=x;
                     }
         }
         return a;}
