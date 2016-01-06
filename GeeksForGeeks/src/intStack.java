@@ -1,5 +1,6 @@
 
-import org.w3c.dom.*;public class intStack
+import org.w3c.dom.*;
+public class intStack
 	{
 		isnode h,c,n;
 		public intStack(int element){h=new isnode(element);h.next=null;}
