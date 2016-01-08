@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting/bin/release/adrt/ADRTLogCatReader.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting/bin/release/adrt/ADRTSender.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting/bin/release/bubble.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting/bin/release/bucket.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting/bin/release/dex/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting/bin/release/mergeSort.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTMetadata.class" afterPath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTMetadata.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bubble$0$debug.class" afterPath="$PROJECT_DIR$/Sorting/bin/debug/bubble$0$debug.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bubble.class" afterPath="$PROJECT_DIR$/Sorting/bin/debug/bubble.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bucket$0$debug.class" afterPath="$PROJECT_DIR$/Sorting/bin/debug/bucket$0$debug.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bucket.class" afterPath="$PROJECT_DIR$/Sorting/bin/debug/bucket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/bin/release/dex/classes.dex.zip" afterPath="$PROJECT_DIR$/Sorting/bin/release/dex/classes.dex.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/bin/debug/mergeSort$0$debug.class" afterPath="$PROJECT_DIR$/Sorting/bin/debug/mergeSort$0$debug.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/bin/debug/mergeSort.class" afterPath="$PROJECT_DIR$/Sorting/bin/debug/mergeSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/bin/release/mergeSort.class" afterPath="$PROJECT_DIR$/Sorting/bin/release/mergeSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test_Outputs/release/dex/classes.dex.zip" afterPath="$PROJECT_DIR$/Test_Outputs/release/dex/classes.dex.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/mergeSort.class" afterPath="$PROJECT_DIR$/Outputs/mergeSort.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting/src/mergeSort.java" afterPath="$PROJECT_DIR$/Sorting/src/mergeSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,8 +29,8 @@
       <file leaf-file-name="mergeSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sorting/src/mergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4528302">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.5283019">
+              <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -566,7 +553,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1319" height="677" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -584,7 +571,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24109174" sideWeight="0.49056605" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39583334" sideWeight="0.49279758" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39583334" sideWeight="0.49279758" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -644,7 +631,7 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1017,8 +1004,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorting/src/mergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4528302">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.5283019">
+          <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
