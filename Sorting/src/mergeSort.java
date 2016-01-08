@@ -16,10 +16,13 @@ public class mergeSort {
             a=mergeSortFunction(a,l,m);
             a=mergeSortFunction(a,m+1,r);
             if(a[m]>a[m+1])
-                for(int i=m+1;i<=r;i++)
-                    for(int j=m;j>=l;j--){  int k=j+1;
-                        x=a[k];a[k]=a[j];a[j]=x;
-                    }
+                for(int i=m+1;i<=r;i++){int k = i;
+                    for(int j=m;j>=l;j--) {
+
+                        x = a[k];
+                        a[k] = a[k - 1];
+                        a[k - 1] = x;
+                    }     }
         }
         return a;}
     public void printlist(int[] a,int n){
