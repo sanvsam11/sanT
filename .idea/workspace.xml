@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HackerRank/src/GraphBFS.java" afterPath="$PROJECT_DIR$/HackerRank/src/GraphBFS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sanT.iml" afterPath="$PROJECT_DIR$/.idea/sanT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sanT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,12 +26,9 @@
       <file leaf-file-name="GraphBFS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HackerRank/src/GraphBFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4726225">
-              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.5850144">
+              <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -218,7 +213,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -309,6 +303,7 @@
       </pane>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -615,8 +610,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39963832" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -689,7 +684,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/HackerRank/src/GraphBFS.java</url>
-          <line>39</line>
+          <line>42</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
@@ -1073,12 +1068,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/src/GraphBFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4726225">
-          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.5850144">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>

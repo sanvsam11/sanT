@@ -9,6 +9,9 @@ class vertex{
 }
 class aListVertex extends vertex{
 	int degree=0;
+	public aListVertex(int element){
+		this.element = element;next=null;
+	}
 	public int degreeOfVertex(){return degree;}
 }
 class evertex extends vertex{
@@ -19,12 +22,12 @@ public class GraphBFS
 	int v,e;
 	aListVertex[] adjacencyList;
 	public GraphBFS(int v,int e){
-		this.v=v;this.e=e; adjacencyList = new aListVertex[v];
-
+		this.v=v;this.e=e; adjacencyList=new aListVertex[v];
+		for(int i=0;i<v;i++)adjacencyList[i] = new aListVertex(i);
 	}
 	public void CreateGraph(int [][] edges){vertex temp;
 		for(int i=0;i<e;i++){temp=adjacencyList[edges[i][0]-1];
-			if(adjacencyList[edges[i][0]-1].next==null)adjacencyList[edges[i][0]-1].next = new evertex(edges[i][1]);
+			if(temp.next==null){temp.next = new evertex(edges[i][1]);}
 		else {while(temp.next!=null)temp=temp.next;temp = new evertex(edges[i][1]);}
 			adjacencyList[edges[i][0]-1].degree++;}
 	}
@@ -43,6 +46,7 @@ public class GraphBFS
 			int [][] edges=new int[v][2];
 			for(int j=0;j<e;j++){edges[j][0]=in.nextInt();edges[j][1]=in.nextInt();}
 			ob[i].CreateGraph(edges);
+			ob[i].printGraph();
 			}
 	}
 }
