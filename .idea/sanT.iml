@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/GeeksForGeeks/bin" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting/bin" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/GraphProblems/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DynamicProgramming/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
