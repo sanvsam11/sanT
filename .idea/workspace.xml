@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynamicProgramming/src/coinsMin.java" afterPath="$PROJECT_DIR$/DynamicProgramming/src/coinsMin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sanT.iml" afterPath="$PROJECT_DIR$/.idea/sanT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sanT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +36,10 @@
       <file leaf-file-name="coinsMin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DynamicProgramming/src/coinsMin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37421384">
-              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.8490566">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
-                <element signature="e#0#1264#0" expanded="true" />
+                <element signature="e#0#1317#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -667,6 +665,12 @@
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DynamicProgramming/src/coinsMin.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/SpojPrograms/src/Linked_List_Fold.java</url>
           <line>5</line>
@@ -674,7 +678,7 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="46" />
+      <option name="time" value="48" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1048,10 +1052,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/src/coinsMin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37421384">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.8490566">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
-            <element signature="e#0#1264#0" expanded="true" />
+            <element signature="e#0#1317#0" expanded="true" />
           </folding>
         </state>
       </provider>

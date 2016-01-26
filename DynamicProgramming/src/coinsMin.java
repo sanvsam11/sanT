@@ -10,8 +10,11 @@ public class coinsMin
         int cposition=numberOfDenominations-1,cvalue=0,TV=TargetValue;
         while(true){if(TV==0||cposition<0) break; cvalue=CoinValues[cposition];
             if(TV<cvalue) cposition--;
-            else{int i=0;
-                for(i=0;i*cvalue<TV;i++);coinCount[cposition]=i;TV=TV-(i*cvalue);cposition--;
+            else{int i;
+                for(i=1;(i+1)*cvalue<TV;i++);
+                coinCount[cposition]=i;
+                TV=TV-(i*cvalue);
+                cposition--;
             }
         }
 
