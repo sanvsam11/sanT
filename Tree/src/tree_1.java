@@ -14,12 +14,15 @@ public class tree_1 {
 
     public tree_1 insertElement(tree_1 t,int element){
         if(t==null){t=new tree_1(element);}
+        else{
+            
+        }
         return t;
 
     }
     public void preOrder(tree_1 r){
         if(r!=null){
-            System.out.print(r.element);
+            System.out.print(r.element+" ");
             preOrder(r.left);
             preOrder(r.right);
         }
