@@ -3,40 +3,53 @@
  */
 public class Stack_class {
     class node{
-        int element;
+        tree_1 element;
         node next;
 
-        public node(int element){
+        public node(tree_1 element){
             this.element=element;
         }
+        public node(){
+            this .element=null;
+        }
     }
-    node top=new node(0);
-    public Stack_class(int element){
+    node top=new node();
+    public Stack_class(tree_1 element){
         top.element=element;
         top.next=null;
     }
-    public void push(int element){
+    public  Stack_class(){
+        top=null;
+    }
+    public void push(tree_1 element){
         node newnode=new node(element);
             newnode.next=top;
             top=newnode;
 
     }
-    public void pop(){
-        if(top!=null){node temp=top;
-            top=top.next;
+    public tree_1 pop(){
+        if(top.next!=null) {
+            node temp = top;
+            top = top.next;
+            return temp.element;
         }
+        return null;
     }
     public void printStack(){
         while(top!=null){
-            System.out.println(top.element);
+            System.out.println(top.element.element);
             top=top.next;
         }
     }
-
+/*
     public static void main(String ar[]){
-        Stack_class s = new Stack_class(1);
-        s.push(2);
-        s.push(3);
+        tree_1 t1=new tree_1(1);
+        tree_1 t2=new tree_1(3);
+        tree_1 t3=new tree_1(4);
+        Stack_class s = new Stack_class(t1);
+        s.push(t2);
+        s.push(t3);
         s.printStack();
     }
+*/
 }
