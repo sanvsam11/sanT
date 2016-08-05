@@ -1,9 +1,11 @@
+import com.intellij.openapi.vcs.history.VcsRevisionNumber;
+
 /**
  * Created by SanthoshVarathan on 28/07/16.
  */
-public class Linked_list {
+public class Linked_list<T> {
     class node_i{
-        int element;
+       int element;
         node_i next;
     public  node_i(){
         element=0;next=null;
@@ -90,17 +92,17 @@ public class Linked_list {
     return r;
     }
     public static void main(String ar[]){
-        Linked_list temp=new Linked_list();
-        Linked_list ml=new Linked_list(5);
+        Linked_list<Integer> temp=new Linked_list<Integer>();
+        Linked_list<Integer> ml=new Linked_list<Integer>(5);
         //ml.delete_int_element(1);
         //ml.insert_int_element(1);
         ml.insert_int_element(2);
         ml.insert_int_element(5);
         //ml.print_list();
-        Linked_list ml2=new Linked_list(5);
+        Linked_list<Integer> ml2=new Linked_list<Integer>(5);
         ml2.insert_int_element(2);
         ml2.insert_int_element(5);
-        Linked_list r = temp.Add_two_numbers(ml,ml2);
+        Linked_list<Integer> r = temp.Add_two_numbers(ml,ml2);
         r.print_list();
     }
 }
