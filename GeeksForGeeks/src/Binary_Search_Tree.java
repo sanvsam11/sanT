@@ -15,7 +15,7 @@ public class Binary_Search_Tree {
         }
 
     }
-    node root;int lhd=0,rhd=0;
+    node root;int lhd=0,rhd=0,ht=0;
     public Binary_Search_Tree(){}
     public Binary_Search_Tree(int element){
         root=new node(element);
@@ -81,7 +81,13 @@ public class Binary_Search_Tree {
         hdFinder(root,0);
         printVerticalOrder(root,lhd,rhd,0);
     }
-
+    public int heightFinder(node n){
+        if(n==null) return 0;
+        else return 1+Math.max(heightFinder(n.left),heightFinder(n.right));
+    }
+    public void heightFinder(){
+        ht=heightFinder(root);
+    }
 
     public static void main(String ar[]){
         Binary_Search_Tree mtree=new Binary_Search_Tree(5);
@@ -92,6 +98,8 @@ public class Binary_Search_Tree {
         mtree.insertelement(7);
         mtree.insertelement(6);
         mtree.insertelement(8);
+        mtree.insertelement(9);
+        mtree.insertelement(10);
         //mtree.printPreorder();
         //mtree.printInorder();
         mtree.printVerticalOrder();
@@ -99,5 +107,6 @@ public class Binary_Search_Tree {
         mtree.printInorder();
         System.out.println(" ");
         mtree.printPreorder();
+        System.out.println("\nHeight of the tree:"+mtree.heightFinder(mtree.root));
     }
 }
