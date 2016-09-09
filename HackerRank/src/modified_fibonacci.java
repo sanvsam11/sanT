@@ -10,17 +10,17 @@ public class modified_fibonacci {
     BigInteger m[];
 
     public void get_first_terms(int a,int b){
-        t1=(BigInteger)a;t2=(BigInteger)b;
+        t1=BigInteger.valueOf((long)a);t2=BigInteger.valueOf((long)b);
     }
-    public int mod_fib_cal_fn_call(int n){
+    public BigInteger mod_fib_cal_fn_call(int n){
         m=new BigInteger[n];m[0]=t1;m[1]=t2;int i=2;
-        while(i<n){m[i]=-1;i++;}
+        while(i<n){m[i]=BigInteger.ZERO;i++;}
         return mod_fib_cal_fn(n-1);
     }
-    public int mod_fib_cal_fn(int i){
-        if(m[i]==-1)
-            m[i]=mod_fib_cal_fn(i-2)
-                    +(mod_fib_cal_fn(i-1)*mod_fib_cal_fn(i-1));
+    public BigInteger mod_fib_cal_fn(int i){
+        if(m[i]==BigInteger.ZERO)
+            m[i]=mod_fib_cal_fn(i-2).add(
+                    (mod_fib_cal_fn(i-1).multiply(mod_fib_cal_fn(i-1))));
         return m[i];
     }
     public static void main(String ar[]){
