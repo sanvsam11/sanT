@@ -13,20 +13,34 @@ public class decrypted_kth
 		else return false;
 	}
 	public char findKthDecryptedChar(){char result='\0';
-		StringBuilder substring=new StringBuilder();int l=encrypted_string.length();
-		for(int i=0;i<l;i++){char c = encrypted_string.charAt(i);
-			if(!(isNumber(c))){
+		StringBuilder substring=new StringBuilder();int l=encrypted_string.length(),i=0;
+		while(i<l)
+		{
+			char c = encrypted_string.charAt(i);
+			if(!(isNumber(c)))
+			{
 				substring.append(c);
 			}
-			else {int it=c-'0';if(isNumber(encrypted_string.charAt(i+1)))it=(it*10)+(int)encrypted_string.charAt(i+1);
-				if((it*substring.length())>k){k=k%substring.length();result=substring.charAt(k);}
-				else{k=k-(it*substring.length());substring.trimToSize();}
-			}
+			else {
+				int it = c - '0';
+				while (((i+1)<l)&&isNumber(encrypted_string.charAt(i+1))) {i++;
+					it = (it * 10) + (int) encrypted_string.charAt(i);
+				}
+				if ((it * substring.length()) >= k) {
+					k = k % substring.length();
+					result = substring.charAt(k);
+				} else {
+					k = k - (it * substring.length());
+					substring.setLength(0);
+				}
+			}i++;
 		}
 	return result;}
 	public void getK(int k){this.k=k;}
 	public static void main(String ar[]){
 		decrypted_kth dk = new decrypted_kth();
 		dk.getEncryptedString("a2b3");
+		dk.getK(4);
+		System.out.println("Result:"+dk.findKthDecryptedChar());
 	}
 }
