@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="SpojPrograms/src"/>
+	<classpathentry kind="src" path="SpojPrograms/bin"/>
+	<classpathentry kind="src" path="Tree_Book/src"/>
+	<classpathentry kind="src" path="GeeksForGeeks/src"/>
+	<classpathentry kind="src" path="Sorting/src"/>
+	<classpathentry kind="src" path="GeeksForGeeks/bin"/>
+	<classpathentry kind="src" path="Sorting/bin"/>
+	<classpathentry kind="src" path="GraphProblems/src"/>
+	<classpathentry kind="src" path="DynamicProgramming/src"/>
+	<classpathentry kind="src" path="HackerRank/src"/>
+	<classpathentry kind="src" path="Java_Practice/src"/>
+	<classpathentry kind="output" path="Outputs"/>
+</classpath>
