@@ -22,7 +22,7 @@ public class Graph {
     public void printGraph(){
         a.printList();
     }
-    /*
+    
     public static void main(String ar[]){
         String elementString = "abcde",edgesString = "abacadaebabbbcbdbecacbcccdcedcdeeeeaeb";
         Graph g = new Graph();
@@ -30,5 +30,5 @@ public class Graph {
         g.addEdges(edgesString);
         g.printGraph();
     }
-    */
+    
 }
