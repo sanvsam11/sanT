@@ -23,11 +23,11 @@ public class subarrayFlip {
         boolean previous_is_zero=false;
         int zero_count=0,initial=0;
         for(int i=0;i<n;i++){
-            if(a[i]==1){flipFind[initial]=zero_count;initial=0; zero_count=0;previous_is_zero=false;}
+            if(a[i]==1){flipFind[initial]=zero_count;if(zero_count>maxZero){maxZero=zero_count;maxLocation=initial;}initial=0; zero_count=0;previous_is_zero=false;}
             else if(a[i]==0&&(!previous_is_zero)){zero_count=1;initial=i;previous_is_zero=true;}
             else if(a[i]==0&&previous_is_zero){zero_count++;}
         }
-        for (int i=0;i<n;i++)if(flipFind[i]>maxZero){maxZero=flipFind[i];maxLocation=i;}
+        //for (int i=0;i<n;i++)if(flipFind[i]>maxZero){maxZero=flipFind[i];maxLocation=i;}
         for(int i=maxLocation;i>0;i--) if(flipFind[i]>0) nextZeroLeftofMax=maxLocation-i+maxZero;
         for(int i=maxLocation;i<n;i++) if(flipFind[i]>0) nextZeroRightofMax=maxLocation+i+maxZero;
         finalLength=nextZeroLeftofMax>nextZeroRightofMax?nextZeroLeftofMax:nextZeroRightofMax;
