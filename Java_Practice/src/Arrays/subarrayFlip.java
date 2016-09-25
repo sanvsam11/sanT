@@ -29,7 +29,7 @@ public class subarrayFlip {
         }
         //for (int i=0;i<n;i++)if(flipFind[i]>maxZero){maxZero=flipFind[i];maxLocation=i;}
         for(int i=maxLocation;i>0;i--) if(flipFind[i]>0) nextZeroLeftofMax=maxLocation-i+maxZero;
-        for(int i=maxLocation;i<n;i++) if(flipFind[i]>0) nextZeroRightofMax=maxLocation+i+maxZero;
+        for(int i=maxLocation;i<n;i++) if(flipFind[i]>0) nextZeroRightofMax=maxLocation+maxZero-1+i+maxZero;
         finalLength=nextZeroLeftofMax>nextZeroRightofMax?nextZeroLeftofMax:nextZeroRightofMax;
         System.out.println("Result:"+finalLength);
     }
