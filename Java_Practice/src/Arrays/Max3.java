@@ -2,6 +2,13 @@ package Arrays;
 
 /**
  * Created by SanthoshVarathan on 27/09/16.
+ * http://www.geeksforgeeks.org/third-largest-element-array-distinct-elements/
+ * Third largest element in an array of distinct elements
+ * Input  : arr[] = {1, 14, 2, 16, 10, 20}
+ Output : The third Largest element is 14
+
+ Input  : arr[] = {19, -10, 20, 14, 2, 16, 10}
+ Output : The third Largest element is 16
  */
 public class Max3 {
     public int getThirdLargest(int a[],int n){int m1=a[0],m2=Integer.MIN_VALUE,m3=Integer.MIN_VALUE;
