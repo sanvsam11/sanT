@@ -6,7 +6,7 @@ package Arrays;
  */
 public class MaxSub {
 	public int maxSubarraySum(int a[],int n){
-		
+		return 0;
 	}
     public static void main(String ar[]){
 
