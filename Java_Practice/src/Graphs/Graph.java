@@ -1,5 +1,5 @@
 package Graphs;
-
+import Stack.Stack;
 /**
  * Created by SanthoshVarathan on 04/09/16.
  */
@@ -22,7 +22,12 @@ public class Graph {
     public void printGraph(){
         a.printList();
     }
-    
+
+    public void printPath(char s,char d){
+        Stack<Character> path = new Stack<Character>(s);
+        
+    }
+
     public static void main(String ar[]){
         String elementString = "abcde",edgesString = "abacadaebabbbcbdbecacbcccdcedcdeeeeaeb";
         Graph g = new Graph();
