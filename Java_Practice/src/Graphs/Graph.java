@@ -32,6 +32,11 @@ public class Graph {
         c.state=1;
         
     }
+<<<<<<< HEAD
+=======
+	public void breadthFirstSearch(){}
+
+>>>>>>> f2822634eb6869959c0e95e0f9a407f5f221be7a
     public static void main(String ar[]){
         String elementString = "abcde",edgesString = "abacadaebabbbcbdbecacbcccdcedcdeeeeaeb";
         Graph g = new Graph();
