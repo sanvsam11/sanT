@@ -21,6 +21,9 @@ public class Stack<t> {
     public void printStack(){c=top;
         while(c!=null){System.out.println(c.element);c=c.next;}
     }
+    public boolean isEmpty(){
+        return (top==null)?true:false;
+    }
     /*
     public static void main(String ar[]){
         Stack<Integer> s = new Stack<Integer>(1);

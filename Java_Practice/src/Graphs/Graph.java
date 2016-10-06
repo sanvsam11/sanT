@@ -1,5 +1,6 @@
 package Graphs;
 import Stack.Stack;
+import queue.queue;
 /**
  * Created by SanthoshVarathan on 04/09/16.
  */
@@ -27,22 +28,30 @@ public class Graph {
         Stack<Character> path = new Stack<Character>(s);
 
     }
-    public void bfs(){
-        Adjacency_List_Node c=a.head;
-        c.state=1;
-        
+    public void bfs(){Adjacency_List_Node c = a.head;c.state=1;queue<Adjacency_List_Node> q=new queue<Adjacency_List_Node>(c);
+            while (!q.isEmpty()) {
+                c = q.dequeue();if(c.state==2)break;
+                Linker_Node l = c.link;
+                System.out.println(c.element);
+                while (l != null) {
+                    q.enqueue(l.v);l.v.state=1;
+                    l = l.next;
+                }
+                c.state = 2;
+            }
     }
-<<<<<<< HEAD
-=======
+//<<<<<<< HEAD
+//=======
 	public void breadthFirstSearch(){}
 
->>>>>>> f2822634eb6869959c0e95e0f9a407f5f221be7a
+//>>>>>>> f2822634eb6869959c0e95e0f9a407f5f221be7a
     public static void main(String ar[]){
-        String elementString = "abcde",edgesString = "abacadaebabbbcbdbecacbcccdcedcdeeeeaeb";
+        //String elementString = "abcde",edgesString = "abacadaebabbbcbdbecacbcccdcedcdeeeeaeb";
+        String elementString = "rstuvwxy",edgesString = "rsrvsrswwtwxwstwtutxxwxuxtxyutuxuyyxyu";
         Graph g = new Graph();
         g.addElements(elementString);
         g.addEdges(edgesString);
-        g.printGraph();
+        //g.printGraph();
         g.bfs();
     }
     
