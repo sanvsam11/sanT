@@ -7,6 +7,7 @@ public class Adjacency_List_Node {
     char element;
     Adjacency_List_Node next;
     Linker_Node link;
+    int state;
     public Adjacency_List_Node(char element){
         this.element=element;
         link=null;next=null;

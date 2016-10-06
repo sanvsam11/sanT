@@ -25,15 +25,20 @@ public class Graph {
 
     public void printPath(char s,char d){
         Stack<Character> path = new Stack<Character>(s);
+
+    }
+    public void bfs(){
+        Adjacency_List_Node c=a.head;
+        c.state=1;
         
     }
-
     public static void main(String ar[]){
         String elementString = "abcde",edgesString = "abacadaebabbbcbdbecacbcccdcedcdeeeeaeb";
         Graph g = new Graph();
         g.addElements(elementString);
         g.addEdges(edgesString);
         g.printGraph();
+        g.bfs();
     }
     
 }

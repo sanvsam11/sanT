@@ -17,18 +17,21 @@ public class Adjacency_List {
             c.next=newnode;
         }
     }
-    public void addLink(char element,char link){c=head;
-        while(c.element!=element&&c!=null)c=c.next;
-        if(c!=null){
-            if(!c.hasLink())c.link = new Linker_Node(link);
-            else{l=c.link;while(l.next!=null)l=l.next;Linker_Node newnode = new Linker_Node(link);l.next=newnode;}
+    public void addLink(char element,char link){c=head;Adjacency_List_Node v=head;Linker_Node l;
+        while(c.element!=element&&c!=null)c=c.next;l=c.link;
+        while(v.element!=link)v=v.next;
+        if(l==null) c.link=new Linker_Node(v);
+           else{
+            while (l.next != null) l = l.next;
+            Linker_Node newnode = new Linker_Node(v);
+            l.next = newnode;
         }
     }
     public void printList(){c=head;
         while(c!=null){l=c.link;
             System.out.print(c.element);
             while(l!=null){
-                System.out.print("->"+l.element);l=l.next;
+                System.out.print("->"+l.v.element);l=l.next;
             }
             if(c.next!=null)System.out.print("\n|\n");c=c.next;
         }
