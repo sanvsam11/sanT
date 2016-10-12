@@ -47,7 +47,7 @@ public class Graph {
 //>>>>>>> f2822634eb6869959c0e95e0f9a407f5f221be7a
     public static void main(String ar[]){
         //String elementString = "abcde",edgesString = "abacadaebabbbcbdbecacbcccdcedcdeeeeaeb";
-        String elementString = "rstuvwxy",edgesString = "rsrvsrswwtwxwstwtutxxwxuxtxyutuxuyyxyu";
+        String elementString = "rstuvwxy",edgesString = "rsrvswwtwxtutxxuxyuy";
         Graph g = new Graph();
         g.addElements(elementString);
         g.addEdges(edgesString);
