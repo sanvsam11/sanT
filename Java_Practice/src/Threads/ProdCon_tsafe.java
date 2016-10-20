@@ -44,9 +44,9 @@ public class ProdCon_tsafe{
     static void consumer() throws InterruptedException{
         while(true){
             Thread.sleep(100);
-            if(r.nextInt(10)==0)
+            if(r.nextInt(10)==0){
             Integer i = q.take();
-            System.out.println("removed Int:"+i+" size:"+q.size());
+            System.out.println("removed Int:"+i+" size:"+q.size());}
         }
     }
 }
