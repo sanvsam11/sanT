@@ -28,6 +28,12 @@ public class mQueue {
             t.next=newnode;
         }
     }
+    public int size(){int s=0;t=top;
+        while(t!=null){
+            t=t.next;s++;
+        }
+        return s;
+    }
     public boolean isEmpty(){
         return (top==null)?true:false;
     }

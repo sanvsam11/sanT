@@ -1,5 +1,4 @@
-
-import org.w3c.dom.*;public class charStack
+public class charStack
 	{
 		sNode h,c,n;
 		public charStack(char element){h=new sNode(element);h.next=null;}

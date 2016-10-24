@@ -7,15 +7,12 @@
  * http://www.geeksforgeeks.org/makemytrip-interview-experience-set-12/
 * */
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 import static java.lang.Integer.*;
 import static java.util.Arrays.binarySearch;
-
-import java.util.Arrays;
 
 public class repeatNumbers
 {

@@ -4,7 +4,8 @@
 public class StackusingQueue {
     mQueue q1,q2;mQueue.node top;
     public StackusingQueue(){
-        q1.top=null;q2.top=null;
+        q1=new mQueue();q2=new mQueue();
+        q1.top =q2.top= null;
     }
     public StackusingQueue(int element){
         q1=new mQueue(element);this.top=q1.top;
@@ -14,6 +15,9 @@ public class StackusingQueue {
         while(!q1.isEmpty())q2.enqueue(q1.dequeue());
         q1.enqueue(element);
         while(!q2.isEmpty())q1.enqueue(q2.dequeue());
+    }
+    public int size(){
+        return q1.size();
     }
     public int pop(){
         return q1.dequeue();

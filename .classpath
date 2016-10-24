@@ -12,5 +12,9 @@
 	<classpathentry kind="src" path="DynamicProgramming/src"/>
 	<classpathentry kind="src" path="HackerRank/src"/>
 	<classpathentry kind="src" path="Java_Practice/src"/>
+	<classpathentry kind="src" path="GeeksForGeeks/Array/src"/>
+	<classpathentry kind="src" path="GeeksForGeeks/Linked List/src"/>
+	<classpathentry kind="src" path="GeeksForGeeks/String/src"/>
+	<classpathentry kind="src" path="GeeksForGeeks/Tree/src"/>
 	<classpathentry kind="output" path="Outputs"/>
 </classpath>

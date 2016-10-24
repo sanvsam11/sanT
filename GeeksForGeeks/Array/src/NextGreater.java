@@ -1,7 +1,7 @@
 /**
  * Created by SanthoshVarathan on 30/09/16.
  */
-import java.util.*;
+
 public class NextGreater {
 
     public void sortFunction(int a[],int n){

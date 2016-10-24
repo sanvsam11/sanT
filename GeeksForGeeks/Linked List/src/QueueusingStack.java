@@ -1,8 +1,15 @@
+import java.util.Queue;
+
 /**
  * Created by SanthoshVarathan on 12/08/16.
  */
-public class QueueusingStack {
+public class QueueusingStack{
     StackusingQueue s1,s2;
+    public void poll(){}
+    public void clear(){}
+    public QueueusingStack(){
+        s1 = new StackusingQueue();
+    }
     public QueueusingStack(int element){
         s1 = new StackusingQueue(element);
 
@@ -14,6 +21,9 @@ public class QueueusingStack {
             s1.push(element);
             while (!s2.isEmpty())s1.push(s2.pop());
         }
+    }
+    public int size(){
+        return s1.size();
     }
     public int dequeue(){
         return s1.pop();
