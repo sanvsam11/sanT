@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Binary_tree.class" afterPath="$PROJECT_DIR$/Outputs/Binary_tree.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GeeksForGeeks/Tree/src/BinaryTree.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GeeksForGeeks/Linked List/src/Queue_node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Outputs/Binary_tree$node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Outputs/Binary_tree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Outputs/DLL_BST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Outputs/Queue_node$node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Outputs/Queue_node.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/GeeksForGeeks/Tree/src/DLL_BST.java" afterPath="$PROJECT_DIR$/GeeksForGeeks/Tree/src/DLL_BT.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SpojPrograms/src/node.java" afterPath="$PROJECT_DIR$/SpojPrograms/src/nodes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/CountFromTail.class" afterPath="$PROJECT_DIR$/Outputs/CountFromTail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/LinkedListMaker.class" afterPath="$PROJECT_DIR$/Outputs/LinkedListMaker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Linked_List_Fold.class" afterPath="$PROJECT_DIR$/Outputs/Linked_List_Fold.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/node.class" afterPath="$PROJECT_DIR$/Outputs/node.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java" afterPath="$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpojPrograms/src/CountFromTail.java" afterPath="$PROJECT_DIR$/SpojPrograms/src/CountFromTail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpojPrograms/src/LinkedListMaker.java" afterPath="$PROJECT_DIR$/SpojPrograms/src/LinkedListMaker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpojPrograms/src/Linked_List_Fold.java" afterPath="$PROJECT_DIR$/SpojPrograms/src/Linked_List_Fold.java" />
     </list>
     <ignored path="sanT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,25 +39,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Binary_tree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java">
+      <file leaf-file-name="DLL_BT.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/DLL_BT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="388">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue_node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Linked List/src/Queue_node.java">
+      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="102">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,11 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GeeksForGeeks/src/denomination.java" />
-        <option value="$PROJECT_DIR$/Java_Practice/src/Arrays/cells.java" />
-        <option value="$PROJECT_DIR$/Java_Practice/src/Arrays/subarrayFlip.java" />
-        <option value="$PROJECT_DIR$/Java_Practice/src/Arrays/Max3.java" />
-        <option value="$PROJECT_DIR$/HackerRank/src/Solution.java" />
         <option value="$PROJECT_DIR$/GeeksForGeeks/src/NextGreater.java" />
         <option value="$PROJECT_DIR$/Java_Practice/src/Stack/node.java" />
         <option value="$PROJECT_DIR$/Java_Practice/src/Graphs/Linker_Node.java" />
@@ -118,7 +131,12 @@
         <option value="$PROJECT_DIR$/Java_Practice/src/Threads/AnonymousInner.java" />
         <option value="$PROJECT_DIR$/Java_Practice/src/Exceptions/propogate.java" />
         <option value="$PROJECT_DIR$/Java_Practice/src/Arrays/onebitchange.java" />
+        <option value="$PROJECT_DIR$/SpojPrograms/src/node.java" />
+        <option value="$PROJECT_DIR$/SpojPrograms/src/nodes.java" />
         <option value="$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java" />
+        <option value="$PROJECT_DIR$/GeeksForGeeks/Linked List/src/Queue_node.java" />
+        <option value="$PROJECT_DIR$/GeeksForGeeks/Tree/src/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/GeeksForGeeks/Tree/src/DLL_BT.java" />
       </list>
     </option>
   </component>
@@ -324,27 +342,7 @@
       <recent name="$PROJECT_DIR$/Tree_Book/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Binary_tree">
-    <configuration default="false" name="reEntrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Threads.reEntrantLock" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sanT" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.DLL_BT">
     <configuration default="false" name="deadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -408,6 +406,21 @@
     <configuration default="false" name="Binary_tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Binary_tree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sanT" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DLL_BT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="DLL_BT" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -696,19 +709,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Application.tree_1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.reEntrantLock" />
-      <item index="3" class="java.lang.String" itemvalue="Application.deadLock" />
-      <item index="4" class="java.lang.String" itemvalue="Application.propogate" />
-      <item index="5" class="java.lang.String" itemvalue="Application.onebitchange" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Binary_tree" />
+      <item index="2" class="java.lang.String" itemvalue="Application.deadLock" />
+      <item index="3" class="java.lang.String" itemvalue="Application.propogate" />
+      <item index="4" class="java.lang.String" itemvalue="Application.onebitchange" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Binary_tree" />
+      <item index="6" class="java.lang.String" itemvalue="Application.DLL_BT" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Binary_tree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.onebitchange" />
-        <item index="2" class="java.lang.String" itemvalue="Application.propogate" />
-        <item index="3" class="java.lang.String" itemvalue="Application.deadLock" />
-        <item index="4" class="java.lang.String" itemvalue="Application.reEntrantLock" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DLL_BT" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Binary_tree" />
+        <item index="2" class="java.lang.String" itemvalue="Application.onebitchange" />
+        <item index="3" class="java.lang.String" itemvalue="Application.propogate" />
+        <item index="4" class="java.lang.String" itemvalue="Application.deadLock" />
       </list>
     </recent_temporary>
   </component>
@@ -743,7 +756,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="745" extended-state="1" />
+    <frame x="-7" y="0" width="1370" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -753,24 +766,24 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3320158" sideWeight="0.5076389" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.4923611" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3267974" sideWeight="0.4923611" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23358779" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34313726" sideWeight="0.49734646" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23402777" sideWeight="0.5151515" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34313726" sideWeight="0.49734646" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23402777" sideWeight="0.5151515" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39963832" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767624" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -926,14 +939,14 @@
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java</url>
-          <line>79</line>
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/DLL_BT.java</url>
+          <line>49</line>
           <properties />
-          <option name="timeStamp" value="86" />
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/SpojPrograms/src/Linked_List_Fold.java</url>
-          <line>5</line>
+          <line>3</line>
           <properties field="list" class="Linked_List_Fold" />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -968,7 +981,7 @@
           <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="87" />
+      <option name="time" value="88" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -977,17 +990,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/util/HashMap.java" />
-    <entry file="file://$PROJECT_DIR$/HackerRank/src/ransomNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java_Practice/src/Linked_Lists/Linked_List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1158,13 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/DLL_BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Array/src/NextGreater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1264,7 +1259,7 @@
         <state relative-caret-position="204">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1284,7 +1279,7 @@
         <state relative-caret-position="17">
           <caret line="2075" column="0" selection-start-line="2075" selection-start-column="0" selection-end-line="2075" selection-end-column="0" />
           <folding>
-            <element signature="e#78050#78051#0" expanded="true" />
+            <element signature="e#78050#78051#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1297,21 +1292,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Linked List/src/Queue_node.java">
+    <entry file="file://$PROJECT_DIR$/SpojPrograms/src/nodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Linked List/src/Queue_node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding>
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/DLL_BT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
           </folding>
         </state>
       </provider>

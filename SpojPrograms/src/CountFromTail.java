@@ -5,7 +5,7 @@ public class CountFromTail {
     LinkedListMaker list = new LinkedListMaker();
     int count=1,tofind=0;boolean found = false;
     public CountFromTail(LinkedListMaker list, char tofind){this.list=list;this.tofind=tofind;}
-    public void TailCounter(node head){
+    public void TailCounter(nodes head){
 
         if(head.next!=null) TailCounter(head.next);
 

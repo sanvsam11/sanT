@@ -1,9 +1,9 @@
-public class node
+ class nodes
 {
 	char element;
-	node next;
+	nodes next;
 	
-	public node(char element){
+	public nodes(char element){
 		this.element=element;next=null;
 	}
 }

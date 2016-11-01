@@ -1,16 +1,14 @@
-
-import java.util.*;
 public class Linked_List_Fold
 {
-	node r,f;static boolean end=false;
+	nodes r,f;static boolean end=false;
 	LinkedListMaker list=new LinkedListMaker();
 	public void ListGetter(LinkedListMaker list){this.list=list;r=f=list.head;end=false;}
-	public void Folder(node rt){
+	public void Folder(nodes rt){
 		if(rt.next!=null)Folder(rt.next);
 
 		if(f.next==rt){end=true;rt.next=null;}
 		if(end==false){
-			node t=f.next;f.next=rt;rt.next=t;f=rt.next;
+			nodes t=f.next;f.next=rt;rt.next=t;f=rt.next;
 		}
 	}
 	public static void main(String ar[]){

@@ -1,18 +1,18 @@
 public class LinkedListMaker
 {
-	node head,c;
+	nodes head,c;
 	public LinkedListMaker(){}
 	public LinkedListMaker(char element){
-		head=new node(element);
+		head=new nodes(element);
 	}
 	public void InsertNode(char element){c=head;
-		if(c==null)head=new node(element);
+		if(c==null)head=new nodes(element);
 		else {while(c.next!=null)c=c.next;
-		node newnode=new node(element);c.next=newnode;}
+		nodes newnode=new nodes(element);c.next=newnode;}
 	}
 	public void DeleteNode(char element){c=head;
 		while(c.next!=null&&c.next.element!=element)c=c.next;
-		node temp=c.next;
+		nodes temp=c.next;
 		c.next=temp.next;
 	}
 	public void PrintList(){c=head;
