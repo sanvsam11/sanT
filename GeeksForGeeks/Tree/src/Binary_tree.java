@@ -82,8 +82,8 @@ public class Binary_tree<T> {
         mt.insert_node('d');
         mt.insert_node('e');
         mt.insert_node('f');
-        mt.print_preOrder();
-        //mt.print_inOrder();
+        //mt.print_preOrder();
+        mt.print_inOrder();
        // mt.print_postOrder();
        // mt.print_levelOrder();
     }

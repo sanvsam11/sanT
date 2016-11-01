@@ -2,151 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_Practice/src/Arrays/onebitchange.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arith$Formula.class" afterPath="$PROJECT_DIR$/Outputs/Arith$Formula.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arith.class" afterPath="$PROJECT_DIR$/Outputs/Arith.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arith_2.class" afterPath="$PROJECT_DIR$/Outputs/Arith_2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arrays/Max3.class" afterPath="$PROJECT_DIR$/Outputs/Arrays/Max3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arrays/MaxSub.class" afterPath="$PROJECT_DIR$/Outputs/Arrays/MaxSub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arrays/Sudoku.class" afterPath="$PROJECT_DIR$/Outputs/Arrays/Sudoku.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arrays/cells.class" afterPath="$PROJECT_DIR$/Outputs/Arrays/cells.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arrays/pascal_triangle.class" afterPath="$PROJECT_DIR$/Outputs/Arrays/pascal_triangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arrays/sieve_of_eratosthanos.class" afterPath="$PROJECT_DIR$/Outputs/Arrays/sieve_of_eratosthanos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arrays/subarrayFlip.class" afterPath="$PROJECT_DIR$/Outputs/Arrays/subarrayFlip.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arrays/sumZero.class" afterPath="$PROJECT_DIR$/Outputs/Arrays/sumZero.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/BST_Test_Class.class" afterPath="$PROJECT_DIR$/Outputs/BST_Test_Class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Binary_Search_Tree$node.class" afterPath="$PROJECT_DIR$/Outputs/Binary_Search_Tree$node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Binary_Search_Tree.class" afterPath="$PROJECT_DIR$/Outputs/Binary_Search_Tree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Binary_tree$node.class" afterPath="$PROJECT_DIR$/Outputs/Binary_tree$node.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Binary_tree.class" afterPath="$PROJECT_DIR$/Outputs/Binary_tree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/CQueueMakers.class" afterPath="$PROJECT_DIR$/Outputs/CQueueMakers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/CountFromTail.class" afterPath="$PROJECT_DIR$/Outputs/CountFromTail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/DLL_BST.class" afterPath="$PROJECT_DIR$/Outputs/DLL_BST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/AbstractFactory.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/AbstractFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/AbstractProductA.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/AbstractProductA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/AbstractProductB.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/AbstractProductB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/Client.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/ConcreteFactory1.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/ConcreteFactory1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/ConcreteFactory2.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/ConcreteFactory2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/FactoryMaker.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/FactoryMaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/OOP/init_test.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/OOP/init_test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/OOP/init_test_super.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/OOP/init_test_super.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/OOP/init_test_super2.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/OOP/init_test_super2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/ProductA1.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/ProductA1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/ProductA2.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/ProductA2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/ProductB1.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/ProductB1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/ProductB2.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/ProductB2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/inheritance/animal.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/inheritance/animal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/inheritance/dog.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/inheritance/dog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Design_Patterns/inheritance/inheritance_test.class" afterPath="$PROJECT_DIR$/Outputs/Design_Patterns/inheritance/inheritance_test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Doubly_Linked_List$node.class" afterPath="$PROJECT_DIR$/Outputs/Doubly_Linked_List$node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Doubly_Linked_List.class" afterPath="$PROJECT_DIR$/Outputs/Doubly_Linked_List.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Exceptions/EmptyStringException.class" afterPath="$PROJECT_DIR$/Outputs/Exceptions/EmptyStringException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Exceptions/propogate.class" afterPath="$PROJECT_DIR$/Outputs/Exceptions/propogate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/ExponentModulation.class" afterPath="$PROJECT_DIR$/Outputs/ExponentModulation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/ExpressionTreeBuilder.class" afterPath="$PROJECT_DIR$/Outputs/ExpressionTreeBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/FreqDigit.class" afterPath="$PROJECT_DIR$/Outputs/FreqDigit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Graphs/Adjacency_List.class" afterPath="$PROJECT_DIR$/Outputs/Graphs/Adjacency_List.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Graphs/Adjacency_List_Node.class" afterPath="$PROJECT_DIR$/Outputs/Graphs/Adjacency_List_Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Graphs/Graph.class" afterPath="$PROJECT_DIR$/Outputs/Graphs/Graph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Graphs/Linker_Node.class" afterPath="$PROJECT_DIR$/Outputs/Graphs/Linker_Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/IntStackMaker.class" afterPath="$PROJECT_DIR$/Outputs/IntStackMaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/KMP_class.class" afterPath="$PROJECT_DIR$/Outputs/KMP_class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/LinkedListMaker.class" afterPath="$PROJECT_DIR$/Outputs/LinkedListMaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Linked_List_Fold.class" afterPath="$PROJECT_DIR$/Outputs/Linked_List_Fold.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Linked_Lists/Linked_List.class" afterPath="$PROJECT_DIR$/Outputs/Linked_Lists/Linked_List.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Linked_list$node_i.class" afterPath="$PROJECT_DIR$/Outputs/Linked_list$node_i.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Linked_list.class" afterPath="$PROJECT_DIR$/Outputs/Linked_list.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/List.class" afterPath="$PROJECT_DIR$/Outputs/List.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/NextGreater.class" afterPath="$PROJECT_DIR$/Outputs/NextGreater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/NextPalindrome.class" afterPath="$PROJECT_DIR$/Outputs/NextPalindrome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/QueueMakers.class" afterPath="$PROJECT_DIR$/Outputs/QueueMakers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Queue_node$node.class" afterPath="$PROJECT_DIR$/Outputs/Queue_node$node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Queue_node.class" afterPath="$PROJECT_DIR$/Outputs/Queue_node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/QueueusingStack.class" afterPath="$PROJECT_DIR$/Outputs/QueueusingStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/SquareRootInteger.class" afterPath="$PROJECT_DIR$/Outputs/SquareRootInteger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Stack/Stack.class" afterPath="$PROJECT_DIR$/Outputs/Stack/Stack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Stack/node.class" afterPath="$PROJECT_DIR$/Outputs/Stack/node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/StackMakers.class" afterPath="$PROJECT_DIR$/Outputs/StackMakers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/StackSortRecursion.class" afterPath="$PROJECT_DIR$/Outputs/StackSortRecursion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Stackusing1queue.class" afterPath="$PROJECT_DIR$/Outputs/Stackusing1queue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/StackusingQueue.class" afterPath="$PROJECT_DIR$/Outputs/StackusingQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner$1.class" afterPath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner$2.class" afterPath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner.class" afterPath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/ImplementsInterface.class" afterPath="$PROJECT_DIR$/Outputs/Threads/ImplementsInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/Lock_Objects$1.class" afterPath="$PROJECT_DIR$/Outputs/Threads/Lock_Objects$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/Lock_Objects$2.class" afterPath="$PROJECT_DIR$/Outputs/Threads/Lock_Objects$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/Lock_Objects.class" afterPath="$PROJECT_DIR$/Outputs/Threads/Lock_Objects.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/ProdCon_tsafe$1.class" afterPath="$PROJECT_DIR$/Outputs/Threads/ProdCon_tsafe$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/ProdCon_tsafe$2.class" afterPath="$PROJECT_DIR$/Outputs/Threads/ProdCon_tsafe$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/ProdCon_tsafe.class" afterPath="$PROJECT_DIR$/Outputs/Threads/ProdCon_tsafe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/ThreadPoolpgm.class" afterPath="$PROJECT_DIR$/Outputs/Threads/ThreadPoolpgm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/account.class" afterPath="$PROJECT_DIR$/Outputs/Threads/account.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/countDownLatch.class" afterPath="$PROJECT_DIR$/Outputs/Threads/countDownLatch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/deadLock$1.class" afterPath="$PROJECT_DIR$/Outputs/Threads/deadLock$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/deadLock$2.class" afterPath="$PROJECT_DIR$/Outputs/Threads/deadLock$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/deadLock.class" afterPath="$PROJECT_DIR$/Outputs/Threads/deadLock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/extendClass.class" afterPath="$PROJECT_DIR$/Outputs/Threads/extendClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/extendedThread.class" afterPath="$PROJECT_DIR$/Outputs/Threads/extendedThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/implementingClass.class" afterPath="$PROJECT_DIR$/Outputs/Threads/implementingClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/interleavingExample$1.class" afterPath="$PROJECT_DIR$/Outputs/Threads/interleavingExample$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/interleavingExample$2.class" afterPath="$PROJECT_DIR$/Outputs/Threads/interleavingExample$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/interleavingExample.class" afterPath="$PROJECT_DIR$/Outputs/Threads/interleavingExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/myFirstThread.class" afterPath="$PROJECT_DIR$/Outputs/Threads/myFirstThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/nthreads.class" afterPath="$PROJECT_DIR$/Outputs/Threads/nthreads.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/nthreadsTest.class" afterPath="$PROJECT_DIR$/Outputs/Threads/nthreadsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/processor.class" afterPath="$PROJECT_DIR$/Outputs/Threads/processor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/processor2.class" afterPath="$PROJECT_DIR$/Outputs/Threads/processor2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/prodCon_wt_nf$1.class" afterPath="$PROJECT_DIR$/Outputs/Threads/prodCon_wt_nf$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/prodCon_wt_nf$2.class" afterPath="$PROJECT_DIR$/Outputs/Threads/prodCon_wt_nf$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/prodCon_wt_nf.class" afterPath="$PROJECT_DIR$/Outputs/Threads/prodCon_wt_nf.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/reEntrantLock$1.class" afterPath="$PROJECT_DIR$/Outputs/Threads/reEntrantLock$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/reEntrantLock$2.class" afterPath="$PROJECT_DIR$/Outputs/Threads/reEntrantLock$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/reEntrantLock.class" afterPath="$PROJECT_DIR$/Outputs/Threads/reEntrantLock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/wait_notify$1.class" afterPath="$PROJECT_DIR$/Outputs/Threads/wait_notify$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/wait_notify$2.class" afterPath="$PROJECT_DIR$/Outputs/Threads/wait_notify$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/wait_notify$prodcons.class" afterPath="$PROJECT_DIR$/Outputs/Threads/wait_notify$prodcons.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/wait_notify.class" afterPath="$PROJECT_DIR$/Outputs/Threads/wait_notify.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/bubble.class" afterPath="$PROJECT_DIR$/Outputs/bubble.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/bucket.class" afterPath="$PROJECT_DIR$/Outputs/bucket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/charSep.class" afterPath="$PROJECT_DIR$/Outputs/charSep.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/charStack.class" afterPath="$PROJECT_DIR$/Outputs/charStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/cqnodes.class" afterPath="$PROJECT_DIR$/Outputs/cqnodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/debug/adrt/ADRTMetadata.dex" afterPath="$PROJECT_DIR$/Outputs/debug/adrt/ADRTMetadata.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/debug/dex/classes.dex" afterPath="$PROJECT_DIR$/Outputs/debug/dex/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/debug/dex/classes.dex.zip" afterPath="$PROJECT_DIR$/Outputs/debug/dex/classes.dex.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/decrypted_kth.class" afterPath="$PROJECT_DIR$/Outputs/decrypted_kth.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/denomination.class" afterPath="$PROJECT_DIR$/Outputs/denomination.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/giftbw.class" afterPath="$PROJECT_DIR$/Outputs/giftbw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/intStack.class" afterPath="$PROJECT_DIR$/Outputs/intStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/isnode.class" afterPath="$PROJECT_DIR$/Outputs/isnode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/mQueue$node.class" afterPath="$PROJECT_DIR$/Outputs/mQueue$node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/mQueue.class" afterPath="$PROJECT_DIR$/Outputs/mQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/matrix90.class" afterPath="$PROJECT_DIR$/Outputs/matrix90.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/mergeSort.class" afterPath="$PROJECT_DIR$/Outputs/mergeSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/modified_fibonacci.class" afterPath="$PROJECT_DIR$/Outputs/modified_fibonacci.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/node.class" afterPath="$PROJECT_DIR$/Outputs/node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/numRange.class" afterPath="$PROJECT_DIR$/Outputs/numRange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/qnodes.class" afterPath="$PROJECT_DIR$/Outputs/qnodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/queue/node.class" afterPath="$PROJECT_DIR$/Outputs/queue/node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/queue/queue.class" afterPath="$PROJECT_DIR$/Outputs/queue/queue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/quicksort.class" afterPath="$PROJECT_DIR$/Outputs/quicksort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/ransomNote.class" afterPath="$PROJECT_DIR$/Outputs/ransomNote.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/recursiveSortofStack.class" afterPath="$PROJECT_DIR$/Outputs/recursiveSortofStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/release/dex/classes.dex" afterPath="$PROJECT_DIR$/Outputs/release/dex/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/release/dex/classes.dex.zip" afterPath="$PROJECT_DIR$/Outputs/release/dex/classes.dex.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/repeatNumbers.class" afterPath="$PROJECT_DIR$/Outputs/repeatNumbers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/sNode.class" afterPath="$PROJECT_DIR$/Outputs/sNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/squaresinrect.class" afterPath="$PROJECT_DIR$/Outputs/squaresinrect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/timeTeller.class" afterPath="$PROJECT_DIR$/Outputs/timeTeller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/tnodes.class" afterPath="$PROJECT_DIR$/Outputs/tnodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/wildcard_matching.class" afterPath="$PROJECT_DIR$/Outputs/wildcard_matching.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/zigzagString.class" afterPath="$PROJECT_DIR$/Outputs/zigzagString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_Practice/src/Exceptions/propogate.java" afterPath="$PROJECT_DIR$/Java_Practice/src/Exceptions/propogate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_Practice/src/Threads/AnonymousInner.java" afterPath="$PROJECT_DIR$/Java_Practice/src/Threads/AnonymousInner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java" afterPath="$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java" />
     </list>
     <ignored path="sanT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -166,98 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="propogate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_Practice/src/Exceptions/propogate.java">
+      <file leaf-file-name="Binary_tree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="731">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="onebitchange.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java_Practice/src/Arrays/onebitchange.java">
+      <file leaf-file-name="Queue_node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Linked List/src/Queue_node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#onebitchange#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Scanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33983">
-              <caret line="2075" column="0" selection-start-line="2075" selection-start-column="0" selection-end-line="2075" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#99893#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#13841#13842#0" expanded="false" />
-                <element signature="e#13890#13891#0" expanded="false" />
-                <element signature="e#13947#13948#0" expanded="false" />
-                <element signature="e#13999#14000#0" expanded="false" />
-                <element signature="e#21196#21197#0" expanded="false" />
-                <element signature="e#21278#21279#0" expanded="false" />
-                <element signature="e#21679#21680#0" expanded="false" />
-                <element signature="e#21750#21751#0" expanded="false" />
-                <element signature="e#26907#26908#0" expanded="false" />
-                <element signature="e#26973#26974#0" expanded="false" />
-                <element signature="e#28403#28404#0" expanded="false" />
-                <element signature="e#28450#28451#0" expanded="false" />
-                <element signature="e#40917#40918#0" expanded="false" />
-                <element signature="e#40953#40954#0" expanded="false" />
-                <element signature="e#41173#41174#0" expanded="false" />
-                <element signature="e#41208#41209#0" expanded="false" />
-                <element signature="e#42513#42514#0" expanded="false" />
-                <element signature="e#42547#42548#0" expanded="false" />
-                <element signature="e#44951#44952#0" expanded="false" />
-                <element signature="e#44991#44992#0" expanded="false" />
-                <element signature="e#50783#50784#0" expanded="false" />
-                <element signature="e#50840#50841#0" expanded="false" />
-                <element signature="e#51489#51490#0" expanded="false" />
-                <element signature="e#51550#51551#0" expanded="false" />
-                <element signature="e#52228#52229#0" expanded="false" />
-                <element signature="e#52286#52287#0" expanded="false" />
-                <element signature="e#57377#57378#0" expanded="false" />
-                <element signature="e#57441#57442#0" expanded="false" />
-                <element signature="e#64742#64743#0" expanded="false" />
-                <element signature="e#64800#64801#0" expanded="false" />
-                <element signature="e#65330#65331#0" expanded="false" />
-                <element signature="e#65375#65376#0" expanded="false" />
-                <element signature="e#66525#66526#0" expanded="false" />
-                <element signature="e#66573#66574#0" expanded="false" />
-                <element signature="e#68265#68266#0" expanded="false" />
-                <element signature="e#68311#68312#0" expanded="false" />
-                <element signature="e#70929#70930#0" expanded="false" />
-                <element signature="e#70978#70979#0" expanded="false" />
-                <element signature="e#72706#72707#0" expanded="false" />
-                <element signature="e#72752#72753#0" expanded="false" />
-                <element signature="e#75360#75361#0" expanded="false" />
-                <element signature="e#75407#75408#0" expanded="false" />
-                <element signature="e#80648#80649#0" expanded="false" />
-                <element signature="e#80696#80697#0" expanded="false" />
-                <element signature="e#82388#82389#0" expanded="false" />
-                <element signature="e#82433#82434#0" expanded="false" />
-                <element signature="e#92828#92829#0" expanded="false" />
-                <element signature="e#92882#92883#0" expanded="false" />
-                <element signature="e#94684#94685#0" expanded="false" />
-                <element signature="e#94735#94736#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmptyStringException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_Practice/src/Exceptions/EmptyStringException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="167">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -284,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GeeksForGeeks/src/repeatNumbers.java" />
         <option value="$PROJECT_DIR$/GeeksForGeeks/src/denomination.java" />
         <option value="$PROJECT_DIR$/Java_Practice/src/Arrays/cells.java" />
         <option value="$PROJECT_DIR$/Java_Practice/src/Arrays/subarrayFlip.java" />
@@ -335,6 +118,7 @@
         <option value="$PROJECT_DIR$/Java_Practice/src/Threads/AnonymousInner.java" />
         <option value="$PROJECT_DIR$/Java_Practice/src/Exceptions/propogate.java" />
         <option value="$PROJECT_DIR$/Java_Practice/src/Arrays/onebitchange.java" />
+        <option value="$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java" />
       </list>
     </option>
   </component>
@@ -458,8 +242,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -488,7 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Java_Practice" />
+              <option name="myItemId" value="GeeksForGeeks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,38 +284,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Java_Practice" />
+              <option name="myItemId" value="GeeksForGeeks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arrays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -547,9 +313,6 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Tree_Book/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GeeksForGeeks/Tree/src" />
       <recent name="$PROJECT_DIR$/GeeksForGeeks/Linked List/src" />
@@ -557,23 +320,11 @@
       <recent name="$PROJECT_DIR$/GeeksForGeeks/Array/src" />
       <recent name="$PROJECT_DIR$/GeeksForGeeks/String/src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tree_Book/src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.onebitchange">
-    <configuration default="false" name="Stackusing1queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Stackusing1queue" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sanT" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Binary_tree">
     <configuration default="false" name="reEntrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -642,6 +393,21 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Arrays.onebitchange" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sanT" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Binary_tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Binary_tree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -930,19 +696,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Application.tree_1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Stackusing1queue" />
-      <item index="3" class="java.lang.String" itemvalue="Application.reEntrantLock" />
-      <item index="4" class="java.lang.String" itemvalue="Application.deadLock" />
-      <item index="5" class="java.lang.String" itemvalue="Application.propogate" />
-      <item index="6" class="java.lang.String" itemvalue="Application.onebitchange" />
+      <item index="2" class="java.lang.String" itemvalue="Application.reEntrantLock" />
+      <item index="3" class="java.lang.String" itemvalue="Application.deadLock" />
+      <item index="4" class="java.lang.String" itemvalue="Application.propogate" />
+      <item index="5" class="java.lang.String" itemvalue="Application.onebitchange" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Binary_tree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.onebitchange" />
-        <item index="1" class="java.lang.String" itemvalue="Application.propogate" />
-        <item index="2" class="java.lang.String" itemvalue="Application.deadLock" />
-        <item index="3" class="java.lang.String" itemvalue="Application.reEntrantLock" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Stackusing1queue" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Binary_tree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.onebitchange" />
+        <item index="2" class="java.lang.String" itemvalue="Application.propogate" />
+        <item index="3" class="java.lang.String" itemvalue="Application.deadLock" />
+        <item index="4" class="java.lang.String" itemvalue="Application.reEntrantLock" />
       </list>
     </recent_temporary>
   </component>
@@ -977,8 +743,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="745" extended-state="0" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="1370" height="745" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4972506" order="6" side_tool="false" content_ui="tabs" />
@@ -996,7 +762,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34313726" sideWeight="0.49734646" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34313726" sideWeight="0.49734646" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23402777" sideWeight="0.5151515" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1159,6 +925,12 @@
           <properties />
           <option name="timeStamp" value="85" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/SpojPrograms/src/Linked_List_Fold.java</url>
           <line>5</line>
@@ -1196,7 +968,7 @@
           <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="86" />
+      <option name="time" value="87" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1205,8 +977,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/util/Arrays.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/lang/String.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/util/HashMap.java" />
     <entry file="file://$PROJECT_DIR$/HackerRank/src/ransomNote.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1489,78 +1259,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_Practice/src/Exceptions/EmptyStringException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33983">
-          <caret line="2075" column="0" selection-start-line="2075" selection-start-column="0" selection-end-line="2075" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#99893#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#13841#13842#0" expanded="false" />
-            <element signature="e#13890#13891#0" expanded="false" />
-            <element signature="e#13947#13948#0" expanded="false" />
-            <element signature="e#13999#14000#0" expanded="false" />
-            <element signature="e#21196#21197#0" expanded="false" />
-            <element signature="e#21278#21279#0" expanded="false" />
-            <element signature="e#21679#21680#0" expanded="false" />
-            <element signature="e#21750#21751#0" expanded="false" />
-            <element signature="e#26907#26908#0" expanded="false" />
-            <element signature="e#26973#26974#0" expanded="false" />
-            <element signature="e#28403#28404#0" expanded="false" />
-            <element signature="e#28450#28451#0" expanded="false" />
-            <element signature="e#40917#40918#0" expanded="false" />
-            <element signature="e#40953#40954#0" expanded="false" />
-            <element signature="e#41173#41174#0" expanded="false" />
-            <element signature="e#41208#41209#0" expanded="false" />
-            <element signature="e#42513#42514#0" expanded="false" />
-            <element signature="e#42547#42548#0" expanded="false" />
-            <element signature="e#44951#44952#0" expanded="false" />
-            <element signature="e#44991#44992#0" expanded="false" />
-            <element signature="e#50783#50784#0" expanded="false" />
-            <element signature="e#50840#50841#0" expanded="false" />
-            <element signature="e#51489#51490#0" expanded="false" />
-            <element signature="e#51550#51551#0" expanded="false" />
-            <element signature="e#52228#52229#0" expanded="false" />
-            <element signature="e#52286#52287#0" expanded="false" />
-            <element signature="e#57377#57378#0" expanded="false" />
-            <element signature="e#57441#57442#0" expanded="false" />
-            <element signature="e#64742#64743#0" expanded="false" />
-            <element signature="e#64800#64801#0" expanded="false" />
-            <element signature="e#65330#65331#0" expanded="false" />
-            <element signature="e#65375#65376#0" expanded="false" />
-            <element signature="e#66525#66526#0" expanded="false" />
-            <element signature="e#66573#66574#0" expanded="false" />
-            <element signature="e#68265#68266#0" expanded="false" />
-            <element signature="e#68311#68312#0" expanded="false" />
-            <element signature="e#70929#70930#0" expanded="false" />
-            <element signature="e#70978#70979#0" expanded="false" />
-            <element signature="e#72706#72707#0" expanded="false" />
-            <element signature="e#72752#72753#0" expanded="false" />
-            <element signature="e#75360#75361#0" expanded="false" />
-            <element signature="e#75407#75408#0" expanded="false" />
-            <element signature="e#80648#80649#0" expanded="false" />
-            <element signature="e#80696#80697#0" expanded="false" />
-            <element signature="e#82388#82389#0" expanded="false" />
-            <element signature="e#82433#82434#0" expanded="false" />
-            <element signature="e#92828#92829#0" expanded="false" />
-            <element signature="e#92882#92883#0" expanded="false" />
-            <element signature="e#94684#94685#0" expanded="false" />
-            <element signature="e#94735#94736#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java_Practice/src/Exceptions/propogate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="204">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1570,10 +1271,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_Practice/src/Arrays/onebitchange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding>
             <element signature="docComment;class#onebitchange#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2075" column="0" selection-start-line="2075" selection-start-column="0" selection-end-line="2075" selection-end-column="0" />
+          <folding>
+            <element signature="e#78050#78051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Practice/src/Exceptions/EmptyStringException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Linked List/src/Queue_node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeeksForGeeks/Tree/src/Binary_tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding>
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
           </folding>
         </state>
       </provider>
