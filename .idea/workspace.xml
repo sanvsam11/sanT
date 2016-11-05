@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GeeksForGeeks/Linked List/src/longestValidBraceString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Arrays/onebitchange.class" afterPath="$PROJECT_DIR$/Outputs/Arrays/onebitchange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/BinaryTree.class" afterPath="$PROJECT_DIR$/Outputs/BinaryTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/CountFromTail.class" afterPath="$PROJECT_DIR$/Outputs/CountFromTail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/DLL_BT.class" afterPath="$PROJECT_DIR$/Outputs/DLL_BT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Exceptions/propogate.class" afterPath="$PROJECT_DIR$/Outputs/Exceptions/propogate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/LinkedListMaker.class" afterPath="$PROJECT_DIR$/Outputs/LinkedListMaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Linked_List_Fold.class" afterPath="$PROJECT_DIR$/Outputs/Linked_List_Fold.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Stack/Stack.class" afterPath="$PROJECT_DIR$/Outputs/Stack/Stack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner$1.class" afterPath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner$2.class" afterPath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner.class" afterPath="$PROJECT_DIR$/Outputs/Threads/AnonymousInner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/node.class" afterPath="$PROJECT_DIR$/Outputs/node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/nodes.class" afterPath="$PROJECT_DIR$/Outputs/nodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/queue/queue.class" afterPath="$PROJECT_DIR$/Outputs/queue/queue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="" />
     <ignored path="sanT.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -824,7 +806,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="835" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -834,7 +816,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3320158" sideWeight="0.5076389" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32506528" sideWeight="0.4923611" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32506528" sideWeight="0.4923611" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23333333" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
