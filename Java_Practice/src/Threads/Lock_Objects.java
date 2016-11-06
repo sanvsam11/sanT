@@ -22,7 +22,7 @@ public class Lock_Objects {
        }
     }
     public void stageTwo(){
-        synchronized (lock1)
+        synchronized (lock2)
         {
             try {
                 Thread.sleep(1);
