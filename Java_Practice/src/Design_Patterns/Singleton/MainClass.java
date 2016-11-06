@@ -7,7 +7,7 @@ public class MainClass {
     static public void bookerMethod(){
         //basicSingleton b = new basicSingleton();
         basicSingleton b = basicSingleton.getInstance();
-        b.addTickets();
+        //b.addTickets();
         b.bookingAgentMethod();
     }
     public static void main(String ar[]){

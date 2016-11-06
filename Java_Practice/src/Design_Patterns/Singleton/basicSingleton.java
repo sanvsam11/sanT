@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class basicSingleton { //show
     private basicSingleton(){
-
+    this.addTickets();
     }
     static basicSingleton Instance;
     ArrayList<String> tickets = new ArrayList<String>();
