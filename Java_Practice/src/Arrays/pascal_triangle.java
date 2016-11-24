@@ -22,9 +22,11 @@ public class pascal_triangle {
             for (int j = 0; j < i + 1; j++) System.out.print(pt[i][j] + " ");
         System.out.println();}
     }
+    /*
     public static void main(String ar[]){
         pascal_triangle pas = new pascal_triangle();
         pas.createTriangle(6);
         pas.printTriangle();
     }
+    */
 }

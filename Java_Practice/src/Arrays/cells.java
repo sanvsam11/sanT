@@ -47,6 +47,7 @@ public class cells {
         for(int i=0;i<n;i++)if(a[i]==1)count++;
         return count;
     }
+    /*
     public static void main(String ar[]){
         int cells[]={0, 1, 1, 1, 0, 1, 1, 0},n=8;
         int k=4;
@@ -54,4 +55,5 @@ public class cells {
         cells=c.stateAfterKDays(cells,n,k);
         System.out.println(c.getActiveCount(cells,n));
     }
+    */
 }

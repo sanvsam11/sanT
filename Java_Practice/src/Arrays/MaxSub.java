@@ -14,9 +14,11 @@ for(int i=0;i<n;i++){
 
 	return curmax;
 	}
+	/*
     public static void main(String ar[]){
 int a[]={1,1,-1,1,1,-1,-1,-1};
 MaxSub m = new MaxSub();
 System.out.println(m.maxSubarraySum(a,a.length));
     }
+    */
 }

@@ -20,9 +20,12 @@ public class Max3 {
         }
         return m3;
     }
+/*
     public static void main(String ar[]){
+
        int a[]={4,6,5,7,7,2,4,4},n=7;
         Max3 mf = new Max3();
         System.out.println("Solution:"+mf.getThirdLargest(a,n));
     }
+*/
 }

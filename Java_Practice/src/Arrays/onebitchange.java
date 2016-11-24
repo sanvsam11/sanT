@@ -31,9 +31,11 @@ public class onebitchange {
         if(z==1||o==1) System.out.println("YES.");
         else System.out.println("NO.");
     }
+    /*
     public static void main(String ar[]){
         int bar []= {0,1,0,1,0,1,1,1};
         onebitchange o = new onebitchange();
         o.oneFlipCheck(bar);
     }
+    */
 }

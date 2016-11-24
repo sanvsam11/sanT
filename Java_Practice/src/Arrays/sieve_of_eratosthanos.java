@@ -17,6 +17,7 @@ public class sieve_of_eratosthanos {
             }
         }
     return isprime[n];}
+/*
     public static void main(String ar[]) throws IOException {
         sieve_of_eratosthanos s = new sieve_of_eratosthanos();
         //BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
@@ -24,4 +25,5 @@ public class sieve_of_eratosthanos {
         //System.out.println("Result:"+s.isPrime(n));
         System.out.println("Result:"+s.isPrime(Integer.parseInt(String.valueOf(new BufferedReader(new InputStreamReader(System.in)).readLine()))));
     }
+    */
 }
