@@ -14,14 +14,14 @@ public class pools_5 implements Runnable{
     public void run(){
         System.out.println(id+": Start");
         try {
-            Thread.sleep(5000);
+            Thread.sleep(5000);             //simulating doing useful work
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         System.out.println(id+": End");
     }
     public static void main(String ar[]){
-        ExecutorService exT = Executors.newFixedThreadPool(3);
+        ExecutorService exT = Executors.newFixedThreadPool(3); //basically number of concurrent jobs running
 
         for(int i=0;i<5;i++){
             exT.submit(new pools_5(i));
@@ -29,7 +29,7 @@ public class pools_5 implements Runnable{
         exT.shutdown();
         System.out.println("All threads submitted.");
         try {
-            exT.awaitTermination(11, TimeUnit.SECONDS);
+            exT.awaitTermination(11, TimeUnit.SECONDS);         // join for pooled threads
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
