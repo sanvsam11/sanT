@@ -10,8 +10,10 @@ public class MainClass {
         //b.addTickets();
         b.bookingAgentMethod();
     }
+    /*
     public static void main(String ar[]){
         for(int i=0;i<3;i++)
         bookerMethod();
     }
+    */
 }
