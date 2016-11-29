@@ -38,6 +38,7 @@ public class Lock_Objects {
             stageTwo();
         }
     }
+    /*
     public static void main(String ar[]){
         final Lock_Objects lo = new Lock_Objects();
         Thread t1 = new Thread(new Runnable() {
@@ -64,4 +65,5 @@ public class Lock_Objects {
         System.out.println("Runtime: "+(et-st));
         System.out.println("List1:"+lo.l1.size()+" List2:"+lo.l2.size());
     }
+    */
 }

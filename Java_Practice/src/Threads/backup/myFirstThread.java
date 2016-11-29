@@ -23,6 +23,7 @@ public void run(){
         String tname = Thread.currentThread().getName();
         System.out.format("%s:%s%n",tname,message);
     }
+    /*
     public static void main(String ar[])throws InterruptedException{
         long patience = 1000*50;
         threadMessage("Starting hhmd");
@@ -41,4 +42,5 @@ public void run(){
     }
         threadMessage("hhmdkiiiiiiiii!!!");
 }
+    */
 }

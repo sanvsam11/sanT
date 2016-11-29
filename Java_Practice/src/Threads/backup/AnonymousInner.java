@@ -7,6 +7,7 @@ package Threads.backup;
  */
 
 public class AnonymousInner {
+    /*
     public static void main(String ar[]){
         Thread t1 = new Thread(new Runnable(){
             public void run(){
@@ -22,4 +23,5 @@ public class AnonymousInner {
         t1.start();
         t2.start();
     }
+    */
 }

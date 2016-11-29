@@ -27,6 +27,7 @@ public class reEntrantLock {
             lock.unlock();
 
     }
+    /*
     public static void main(String ar[]){
         final reEntrantLock r = new reEntrantLock();
         Thread t1 = new Thread(new Runnable() {
@@ -57,4 +58,5 @@ public class reEntrantLock {
         }
         System.out.println(r.c);
     }
+    */
 }

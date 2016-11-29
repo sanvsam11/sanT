@@ -30,6 +30,7 @@ public class wait_notify {
             }
         }
     }
+    /*
     public static void main(String ar[]){
         final wait_notify w = new wait_notify();
         Thread t1 = new Thread(new Runnable() {
@@ -58,4 +59,5 @@ public class wait_notify {
             e.printStackTrace();
         }
     }
+    */
 }

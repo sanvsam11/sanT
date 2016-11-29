@@ -5,10 +5,12 @@ package Threads.backup;
  */
 public class interleavingExample {
     private int c = 0;
+    /*
     public static void main(String ar[]){
         interleavingExample i = new interleavingExample();
         i.execute();
     }
+    */
     public void execute(){
         Thread t1 = new Thread(new Runnable() {
             @Override

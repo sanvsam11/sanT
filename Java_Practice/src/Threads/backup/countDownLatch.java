@@ -24,6 +24,7 @@ class processor2 implements Runnable{
     }
 }
 public class countDownLatch {
+    /*
     public static void main(String ar[]){
         CountDownLatch latch = new CountDownLatch(3);
         ExecutorService e = Executors.newFixedThreadPool(3);
@@ -35,4 +36,5 @@ public class countDownLatch {
         }
         System.out.println("completed");
     }
+    */
 }

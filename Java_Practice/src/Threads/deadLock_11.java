@@ -19,6 +19,7 @@ public class deadLock_11 {
     public void increment2(){
         //count2++;
     }
+    /*
     public static void main(String ar[]){
         final deadLock_11 d = new deadLock_11();
         Thread t1 = new Thread(new Runnable() {
@@ -50,6 +51,7 @@ public class deadLock_11 {
         System.out.println("Account a:"+d.a.getBalance()+" Account b:"+d.b.getBalance() );
         System.out.println("Total: "+(d.a.getBalance()+d.b.getBalance()));
     }
+    */
     private void acquireLocks(Lock flock,Lock slock)throws InterruptedException{
         while(true){boolean flockb=false,slockb=false;
             try{
@@ -58,17 +60,16 @@ public class deadLock_11 {
             }finally {
                 if(flockb&&slockb)return;
                 else if(flockb) flock.unlock();
-                else slock.unlock();
+                else if(slockb)slock.unlock();
                 Thread.sleep(100);
             }
         }
     }
-    public void stageOne() throws InterruptedException{
+    public void stageOne() throws InterruptedException{ Random r = new Random();
         //lock1.lock();lock2.lock();
         acquireLocks(lock1,lock2);
         try {
             //increment1();
-            Random r = new Random();
             account.transfer(a,b,r.nextInt(100));
             //lock2.lock();
         }finally {
@@ -85,10 +86,9 @@ public class deadLock_11 {
         }
         */
     }
-    public void stageTwo()throws InterruptedException{
+    public void stageTwo()throws InterruptedException{ Random r = new Random();
         //lock2.lock();lock1.lock();
         acquireLocks(lock1,lock2);
-        Random r = new Random();
         try {
             //increment2();
             account.transfer(b,a,r.nextInt(100));

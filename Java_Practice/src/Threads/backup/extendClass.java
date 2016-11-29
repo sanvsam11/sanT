@@ -10,6 +10,7 @@ class extendedThread extends Thread{
     }
 }
 public class extendClass{
+    /*
     public static void main(String ar[]){
         extendedThread t1 = new extendedThread();
         extendedThread t2 = new extendedThread();
@@ -17,4 +18,5 @@ public class extendClass{
         t1.start();
         t2.start();
     }
+    */
 }

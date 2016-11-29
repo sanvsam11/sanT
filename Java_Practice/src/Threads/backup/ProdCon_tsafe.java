@@ -10,6 +10,7 @@ import java.util.Random;
 public class ProdCon_tsafe{
     static Random r = new Random(100);
     static BlockingQueue<Integer> q = new ArrayBlockingQueue<Integer>(10);
+    /*
     public static void main(String ar[]) throws InterruptedException{
         Thread t1 = new Thread(new Runnable(){
            public void run(){
@@ -36,6 +37,7 @@ public class ProdCon_tsafe{
         t1.join();
         t2.join();
 }
+    */
     static void producer() throws InterruptedException{
         while(true){
             q.put(r.nextInt(100));

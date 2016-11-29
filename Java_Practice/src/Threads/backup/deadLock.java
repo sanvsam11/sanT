@@ -57,6 +57,7 @@ public class deadLock {
         System.out.println("A2: "+a2.getBalance());
         System.out.println("Total: "+(a1.getBalance()+a2.getBalance()));
     }
+    /*
     public static void main(String ar[]){
         final deadLock d = new deadLock();
         Thread t1= new Thread(new Runnable() {
@@ -87,4 +88,5 @@ public class deadLock {
         }
         d.balancePrinter();
     }
+    */
 }

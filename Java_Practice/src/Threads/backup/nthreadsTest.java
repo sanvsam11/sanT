@@ -6,6 +6,7 @@ import java.util.LinkedList;
  * Created by SanthoshVarathan on 16/10/16.
  */
 public class nthreadsTest {
+    /*
     public static void main(String ar[]){
         nthreads t[]=new nthreads[10];
         LinkedList<Integer> l[]=new LinkedList[10];
@@ -17,4 +18,5 @@ public class nthreadsTest {
         }
         for(int i=0;i<10;i++) t[i].run();
     }
+    */
 }

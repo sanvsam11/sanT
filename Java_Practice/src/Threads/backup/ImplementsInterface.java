@@ -26,6 +26,7 @@ class implementingClass implements Runnable{
     }
 }
 public class ImplementsInterface {
+    /*
     public static void main(String ar[]){
         implementingClass imp1 = new implementingClass();
         implementingClass imp2 = new implementingClass();
@@ -35,4 +36,5 @@ public class ImplementsInterface {
         Scanner in = new Scanner(System.in);in.nextLine();
         imp1.shutdown();
     }
+    */
 }

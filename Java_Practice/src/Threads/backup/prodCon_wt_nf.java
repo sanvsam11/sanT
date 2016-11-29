@@ -34,6 +34,7 @@ public class prodCon_wt_nf {
             }
 
     }
+    /*
     public static void main(String ar[]){
         final prodCon_wt_nf pc = new prodCon_wt_nf();
         Thread t1 = new Thread(new Runnable() {
@@ -64,4 +65,5 @@ public class prodCon_wt_nf {
             e.printStackTrace();
         }
     }
+    */
 }

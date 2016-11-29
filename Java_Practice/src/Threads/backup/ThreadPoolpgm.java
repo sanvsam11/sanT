@@ -28,6 +28,7 @@ class processor implements Runnable{
     }
 }
 public class ThreadPoolpgm {
+    /*
     public static void main(String ar[]){
         ExecutorService e = Executors.newFixedThreadPool(2);
         for(int i=1;i<6;i++) e.submit(new processor(i));
@@ -38,4 +39,5 @@ public class ThreadPoolpgm {
             e1.printStackTrace();
         }
     }
+    */
 }
