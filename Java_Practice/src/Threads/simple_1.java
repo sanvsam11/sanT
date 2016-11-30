@@ -6,6 +6,7 @@ import java.util.Random;
  * Created by SanthoshVarathan on 24/11/16.
  */
 public class simple_1 implements Runnable{
+    /*
     public static void main(String ar[]){
         Thread t = new Thread(new simple_1());
         t.start();
@@ -24,6 +25,7 @@ public class simple_1 implements Runnable{
             System.out.println("Main: "+r.nextInt(100));
         }
     }
+    */
     public void run(){
         Random r = new Random(100);
         for(int i=0;i<20;i++) {

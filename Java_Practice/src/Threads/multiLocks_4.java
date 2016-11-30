@@ -20,6 +20,7 @@ public class multiLocks_4 implements Runnable{
     public void run(){
         process();             //current thread calling process that calls two methods in sequence which are synchronised seperately for access to two lists
     }
+    /*
     public static void main(String ar[]){
         multiLocks_4 m = new multiLocks_4();
         Thread t1 = new Thread(m);
@@ -37,6 +38,7 @@ public class multiLocks_4 implements Runnable{
         System.out.println("Runtime: "+(et-st));
         System.out.println("l1: "+m.l1.size()+" l2: "+m.l2.size());
     }
+    */
     public void stageOne(){                     //method updating list 1
         //lock1.lock();
         synchronized (lock1) {                  //lock1 to restrict access to list 1

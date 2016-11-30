@@ -7,6 +7,7 @@ import java.util.Scanner;
  */
 public class volatile_2 implements Runnable{
     private volatile boolean running = true;
+    /*
     public static void main(String ar[]){
         volatile_2 v= new volatile_2();
         Thread t = new Thread(v);
@@ -14,6 +15,7 @@ public class volatile_2 implements Runnable{
         new Scanner(System.in).nextLine();
         v.shutdown();
     }
+    */
     public void shutdown(){
         running = false;
     }

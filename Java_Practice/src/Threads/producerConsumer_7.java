@@ -10,6 +10,7 @@ import java.util.concurrent.RunnableFuture;
  */
 public class producerConsumer_7 {
     static BlockingQueue queue = new ArrayBlockingQueue(10);
+    /*
     public static void main(String ar[]){
         //final producerConsumer_7 pc = new producerConsumer_7();
         Thread producer = new Thread(new Runnable() {
@@ -43,6 +44,7 @@ public class producerConsumer_7 {
             e.printStackTrace();
         }
     }
+    */
     public static void producer() throws InterruptedException{
         Random r = new Random();
         while(true){

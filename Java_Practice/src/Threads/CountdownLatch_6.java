@@ -23,6 +23,7 @@ public class CountdownLatch_6 implements Runnable{
         System.out.println(Thread.currentThread().getId()+": completed..");
         latch.countDown();                                                       // notifyAll equivalent but with a count and simplified code
     }
+    /*
     public static void main(String ar[]){
         CountDownLatch latch = new CountDownLatch(3);
         ExecutorService ex = Executors.newFixedThreadPool(3);
@@ -37,4 +38,5 @@ public class CountdownLatch_6 implements Runnable{
         System.out.println("Dependent threads completed...");
         System.out.println("Main OUT.");
     }
+    */
 }

@@ -5,10 +5,12 @@ package Threads;
  */
 public class Interleaving_3 {
     private int count=0;
+    /*
     public static void main(String ar[]){
         Interleaving_3 i = new Interleaving_3();
         i.doWork();
     }
+    */
     public synchronized void sincrement(){    //syncronised method to increment count to avoid interleaving
         count++;                                // ATOMIC (Synchronised)
     }

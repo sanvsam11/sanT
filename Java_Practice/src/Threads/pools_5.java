@@ -20,6 +20,7 @@ public class pools_5 implements Runnable{
         }
         System.out.println(id+": End");
     }
+    /*
     public static void main(String ar[]){
         ExecutorService exT = Executors.newFixedThreadPool(3); //basically number of concurrent jobs running
 
@@ -35,4 +36,5 @@ public class pools_5 implements Runnable{
         }
         System.out.println("All threads complete");
     }
+    */
 }
