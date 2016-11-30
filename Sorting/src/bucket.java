@@ -9,7 +9,7 @@ import java.util.*;public class bucket
 	}
 	public void printSorted(boolean a[],int m){
 	    for(int i=0;i<m;i++)if(a[i])System.out.println(i+1);
-	}
+	}/*
 	public static void main(String ar[]){
 		bucket ob = new bucket();
 		Scanner in = new Scanner(System.in);
@@ -18,4 +18,5 @@ import java.util.*;public class bucket
 		
 			ob.printSorted(ob.sortfunction(N,n,m),m);
 	}
+	*/
 }

@@ -14,6 +14,7 @@ public class bubble
 	public void printSequence(int a[],int n){
 		for(int i=0;i<n;i++)System.out.println(a[i]);
 	}
+	/*
 	public static void main(String ar[]){
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt(),a[]=new int[n];
@@ -21,4 +22,5 @@ public class bubble
 		bubble ob = new bubble();
 		ob.printSequence(ob.bubbleSortFunction(a,n),n);
 	}
+	*/
 }

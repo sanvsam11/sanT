@@ -17,6 +17,7 @@ public class quicksort
 		a = quickSorter(a,l,p);
 		a = quickSorter(a,p+1,r);}
 	return a;}
+	/*
 	public static void main (String ar[]){
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter the number of items to be sorted: ");
@@ -25,4 +26,5 @@ public class quicksort
 		quicksort ob = new quicksort();
 		System.out.println(ob.quickSortFunction(a,n));
 	}
+	*/
 }
