@@ -18,7 +18,7 @@ public class MergeSort_Threaded implements Runnable{
         this.a = a;e=a.length-1;l=e-s;
     }
     MergeSort_Threaded(int a[],int s,int e){            //constructor to get the array to be sorted
-        this.a = a;this.s = s;this.e = e;
+        this.a = a;this.s = s;this.e = e;l=e-s;
     }
     public void getExecutorService(ExecutorService ex){
         this.ex = ex;
@@ -34,9 +34,16 @@ public class MergeSort_Threaded implements Runnable{
         }
     }
     public void run(){
-        if(l<3){
-            if(a[s]>a[e]) swap(s,e);
-        }
+		System.out.println("thread with elements:");
+		printArray();
+		
+        if(l==1&&(a[s]>a[e]))swap(s,e);
+        else if(l==2){boolean first=a[s]>a[s+1],second=a[s+1]>a[e];
+			if(first&&second)swap(a[s],a[e]);
+			else for(int i=s;i<e;i++){
+				if(a[i]>a[i+1]) swap(a[i],a[i+1]);
+			}
+		}
         else{
             int m = (s+e)/2;                                                //bisecting the array for merge sort
             MergeSort_Threaded left = new MergeSort_Threaded(a,s,m);        //new runnable instance for the left half
