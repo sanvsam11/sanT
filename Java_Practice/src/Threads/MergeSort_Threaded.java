@@ -34,18 +34,20 @@ public class MergeSort_Threaded implements Runnable{
         }
     }
     public void run(){
-		System.out.println("thread with elements:");
+		System.out.print("thread with elements:");
 		printArray();
-		
-        if(l==1&&(a[s]>a[e]))swap(s,e);
-        else if(l==2){boolean first=a[s]>a[s+1],second=a[s+1]>a[e];
+        System.out.println("\nM:"+((s+e)/2)+" s:"+s+"e:"+e);
+        System.out.println("l:"+l+" s:"+s+" e:"+e);
+        if(l<2)if(a[s]>a[e])swap(s,e);
+        else if(l<3){boolean first=a[s]>a[s+1],second=a[s+1]>a[e];
+
 			if(first&&second)swap(a[s],a[e]);
 			else for(int i=s;i<e;i++){
 				if(a[i]>a[i+1]) swap(a[i],a[i+1]);
 			}
 		}
         else{
-            int m = (s+e)/2;                                                //bisecting the array for merge sort
+            int m = (s+e)/2;                                                //bisecting the array for merge sor
             MergeSort_Threaded left = new MergeSort_Threaded(a,s,m);        //new runnable instance for the left half
             //ex.submit(left);
             Thread lt = new Thread(left);
