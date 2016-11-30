@@ -16,6 +16,7 @@ public class myThread extends Thread {
             s.replace(0,1,temp);
         }
     }
+	/*
     public static void main(String ar[]){
         StringBuffer s = new StringBuffer();
         s.append("A");
@@ -32,4 +33,5 @@ public class myThread extends Thread {
         }
 
     }
+	*/
 }

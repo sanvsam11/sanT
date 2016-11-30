@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
  * Created by SanthoshVarathan on 05/11/16.
  */
 public class regex {
+	/*
     public static void main(String ar[]){
         String sm = "ababaababaaababaaaaababaaaa";
         String sp = "abaa";
@@ -17,4 +18,5 @@ public class regex {
             System.out.println(m.start()+" "+m.group());
         }
     }
+	*/
 }
