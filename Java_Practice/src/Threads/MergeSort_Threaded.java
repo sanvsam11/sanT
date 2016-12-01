@@ -14,12 +14,13 @@ public class MergeSort_Threaded implements Runnable{
     ExecutorService ex;
     int a[],s=0,e=0;                                     //array to be sorted
     int l = 0;
-    MergeSort_Threaded(int a[]){
-        this.a = a;e=a.length-1;l=e-s;
-    }
-    MergeSort_Threaded(int a[],int s,int e){            //constructor to get the array to be sorted
+	MergeSort_Threaded(int a[],int s,int e){            //constructor to get the array to be sorted
         this.a = a;this.s = s;this.e = e;l=e-s;
     }
+    MergeSort_Threaded(int ar[]){
+        MergeSort_Threaded(ar,0,a.length-1);
+    }
+    
     public void getExecutorService(ExecutorService ex){
         this.ex = ex;
     }
