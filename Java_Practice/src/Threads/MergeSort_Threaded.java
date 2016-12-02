@@ -34,10 +34,10 @@ public class MergeSort_Threaded implements Runnable{
         }
     }
     public void run(){
-		System.out.print("thread with elements:");
-		printArray();
-        System.out.println("\nM:"+((s+e)/2)+" s:"+s+"e:"+e);
-        System.out.println("l:"+l+" s:"+s+" e:"+e);
+		//System.out.print("thread with elements:");
+		//printArray();
+        //System.out.println("\nM:"+((s+e)/2)+" s:"+s+"e:"+e);
+        //System.out.println("l:"+l+" s:"+s+" e:"+e);
         if(l<2)if(a[s]>a[e])swap(s,e);
         else if(l<3){boolean first=a[s]>a[s+1],second=a[s+1]>a[e];
 
@@ -65,6 +65,8 @@ public class MergeSort_Threaded implements Runnable{
                for(int i=m;i>0;i--){int j = i;
                    while(a[j]>a[j+1]){swap(j,j+1);j++;}
                }
+                System.out.println("Array after merge:");
+                printArray();
             }
         }
     }
@@ -86,6 +88,6 @@ public class MergeSort_Threaded implements Runnable{
         } catch (InterruptedException e1) {
             e1.printStackTrace();
         }
-        ms.printArray();
+        //ms.printArray();
     }
 }
