@@ -15,37 +15,29 @@ public class MergeSort_Threaded implements Callable<int[]> {
 
 	public MergeSort_Threaded(int ar[]){
         a = ar;this.s = 0;l=ar.length;this.e =l-1;
-    }/*
-
-    public MergeSort_Threaded(int ar[]){                 //constructor to get the array to be sorted
-        a=ar;l=ar.length;s=0;e=l-1;
-    }
-    */
-    public MergeSort_Threaded(){
-
-    }
-    
+    } 
     public void getExecutorService(ExecutorService ex){
         this.ex = ex;
     }
     public void swap(int i,int j){
-        lock.lock();
+       // lock.lock();
         try {
             int x = a[i];
             a[i] = a[j];
             a[j] = x;
         }finally {
-            lock.unlock();
+      //      lock.unlock();
         }
     }
-    public synchronized boolean compare(int i,int j){
+    public boolean compare(int i,int j){
         return (a[i]>a[j])?true:false;
     }
-    public synchronized void replace(int i,int element){
+    public void replace(int i,int element){
     a[i]=element;
     }
     public int[] call() {
-        if (l < 2) if (compare(s, e)) {
+        if(l<2) return a;
+		else if (l < 2) if (compare(s, e)) {
             swap(s, e);
         } else if (l < 3) {
             boolean first = compare(s, s + 1), second = compare(s + 1, e);
@@ -53,7 +45,7 @@ public class MergeSort_Threaded implements Callable<int[]> {
             else for (int i = s; i < e; i++) {
                 if (compare(i, i + 1)) swap(i, i + 1);
             }
-        } else {
+         } else {
             int m = (s + e) / 2, leftArray[] = new int[m - s], rightArray[] = new int[e - m];
             for (int i = 0; i <= m; i++) leftArray[i] = a[i];
             for (int i = m + 1; i <= e; i++) rightArray[i] = a[i];
@@ -131,14 +123,15 @@ public class MergeSort_Threaded implements Callable<int[]> {
         }
     }
     */
-    public static synchronized void printArray(int pa[]){
+    public static void printArray(int pa[]){
         for(int i=0;i<pa.length;i++){
             System.out.print(pa[i]+" ");
         }
     }
     public static void main(String ar[]){
-        int a[] = {4,6,3,2,6,8,6,4,22,5,7,67,35,7,45,99},l=a.length;
-        ExecutorService ex = Executors.newFixedThreadPool(10);
+        int a[] = {4,6,3,2,6,8,6,4,22,5,7,67,35,7,45,99};
+		int[] result=null;
+        ExecutorService ex = Executors.newFixedThreadPool(1);
         MergeSort_Threaded ms = new MergeSort_Threaded(a);
         //ms.getExecutorService(ex);
         Future<int[]> f=ex.submit(ms);
@@ -153,13 +146,14 @@ public class MergeSort_Threaded implements Callable<int[]> {
         }
         */
         try {
-            ex.awaitTermination(10,TimeUnit.MINUTES);a=f.get();
+			//Thread.sleep(4000);
+            ex.awaitTermination(10,TimeUnit.MINUTES);result=f.get();
         } catch (InterruptedException e1) {
             e1.printStackTrace();
         }catch(ExecutionException e){
             e.printStackTrace();
         }
         System.out.println("End of main thread.");
-        MergeSort_Threaded.printArray(a);
+        MergeSort_Threaded.printArray(result);
     }
 }
