@@ -7,13 +7,13 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * Created by SanthoshVarathan on 30/11/16.
  */
-public class MergeSort_Threaded implements Callable<int[]> {
+public class MergeSort_Executor implements Callable<int[]> {
     static Lock lock = new ReentrantLock();
     ExecutorService ex= Executors.newFixedThreadPool(2);
     int a[],s=0,e=0;                                     //array to be sorted
     int l = 0;
 
-	public MergeSort_Threaded(int ar[]){
+	public MergeSort_Executor(int ar[]){
         a = ar;this.s = 0;l=ar.length;this.e =l-1;
     } 
     public void getExecutorService(ExecutorService ex){
@@ -49,8 +49,8 @@ public class MergeSort_Threaded implements Callable<int[]> {
             int m = (s + e) / 2, leftArray[] = new int[m - s], rightArray[] = new int[e - m];
             for (int i = 0; i <= m; i++) leftArray[i] = a[i];
             for (int i = m + 1; i <= e; i++) rightArray[i] = a[i];
-            Future<int[]> left = ex.submit(new MergeSort_Threaded(leftArray));
-            Future<int[]> right = ex.submit(new MergeSort_Threaded(rightArray));
+            Future<int[]> left = ex.submit(new MergeSort_Executor(leftArray));
+            Future<int[]> right = ex.submit(new MergeSort_Executor(rightArray));
             ex.shutdown();
             try {
                 leftArray = left.get();
@@ -100,11 +100,11 @@ public class MergeSort_Threaded implements Callable<int[]> {
 		}
         else{
             int m = (s+e)/2;                                                //bisecting the array for merge sor
-            MergeSort_Threaded left = new MergeSort_Threaded(a,s,m);        //new runnable instance for the left half
+            MergeSort_Executor left = new MergeSort_Executor(a,s,m);        //new runnable instance for the left half
             //ex.submit(left);
             Thread lt = new Thread(left);
             lt.start();
-            MergeSort_Threaded right = new MergeSort_Threaded(a,m+1,e);     //new runnable instance for the right half
+            MergeSort_Executor right = new MergeSort_Executor(a,m+1,e);     //new runnable instance for the right half
             Thread rt = new Thread(right);
             rt.start();
             try {
@@ -132,7 +132,7 @@ public class MergeSort_Threaded implements Callable<int[]> {
         int a[] = {4,6,3,2,6,8,6,4,22,5,7,67,35,7,45,99};
 		int[] result=null;
         ExecutorService ex = Executors.newFixedThreadPool(1);
-        MergeSort_Threaded ms = new MergeSort_Threaded(a);
+        MergeSort_Executor ms = new MergeSort_Executor(a);
         //ms.getExecutorService(ex);
         Future<int[]> f=ex.submit(ms);
         ex.shutdown();
@@ -154,6 +154,7 @@ public class MergeSort_Threaded implements Callable<int[]> {
             e.printStackTrace();
         }
         System.out.println("End of main thread.");
-        MergeSort_Threaded.printArray(result);
+        MergeSort_Executor.printArray(result);
     }
+
 }
