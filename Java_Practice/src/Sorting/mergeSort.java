@@ -27,7 +27,7 @@ public class mergeSort {
     public void printlist(int[] a,int n){
         for(int i=0;i<n;i++)System.out.println(a[i]);
     }
-	/*
+
     public static void main(String ar[]){
         mergeSort ob = new mergeSort();
         Scanner in = new Scanner (System.in);
@@ -36,5 +36,5 @@ public class mergeSort {
         for(int i=0;i<n;i++)a[i]=in.nextInt();
         ob.printlist(ob.mergeSortFunction(a,0,n-1),n);
     }
-	*/
+
 }
