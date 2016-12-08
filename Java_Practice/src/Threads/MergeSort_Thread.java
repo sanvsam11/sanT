@@ -27,13 +27,14 @@ public class MergeSort_Thread implements Runnable{
     }
     public static void main(String ar[]){
         int a[]={10,9,8,7,6,5,4,3,2,1};
-        Thread t = new Thread(new MergeSort_Thread(a));
+		MergeSort_Thread o=new MergeSort_Thread(a);
+        Thread t = new Thread(o);
         t.start();
         try {
             t.join();
         } catch (InterruptedException e1) {
             e1.printStackTrace();
         }
-        for(int i:a)System.out.print(i+" ");
+        for(int i:o.a)System.out.print(i+" ");
     }
 }
