@@ -2,11 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8d1e97-dfca-4c10-9a9a-42f91c1439e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_Practice/src/Threads/MergeSort_Threaded_solution.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Outputs/Threads/MergeSort_Threaded.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/Sorting/mergeSort.class" afterPath="$PROJECT_DIR$/Outputs/Sorting/mergeSort.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Outputs/debug/Threads/MergeSort_Executor$0$debug.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Outputs/debug/Threads/MergeSort_Executor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Outputs/debug/Threads/MergeSort_Thread$0$debug.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Outputs/debug/Threads/MergeSort_Thread.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Outputs/release/Threads/MergeSort_Executor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Outputs/release/Threads/MergeSort_Executor.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Outputs/release/Threads/MergeSort_Thread.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Outputs/release/Threads/MergeSort_Thread.dex" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRT.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTLogCatReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTLogCatReader.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTLongMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTLongMap.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTLongSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTLongSet.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTMetadata.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTMetadata.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTReceiver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTReceiver.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTReflector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTReflector.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTSender.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTSender.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTThread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTThread.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTThreadLocal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/adrt/ADRTThreadLocal.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bubble$0$debug.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bubble$0$debug.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bubble.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bubble.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bucket$0$debug.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bucket$0$debug.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bucket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/bucket.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/dex/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/dex/classes.dex.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/mergeSort$0$debug.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/mergeSort$0$debug.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/mergeSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/debug/mergeSort.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/adrt/ADRTLogCatReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/adrt/ADRTLogCatReader.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/adrt/ADRTSender.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/adrt/ADRTSender.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/bubble.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/bubble.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/bucket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/bucket.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/dex/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/dex/classes.dex.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/mergeSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sorting/bin/release/mergeSort.dex" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/debug/adrt/ADRTMetadata.class" afterPath="$PROJECT_DIR$/Outputs/debug/adrt/ADRTMetadata.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/release/dex/classes.dex" afterPath="$PROJECT_DIR$/Outputs/release/dex/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outputs/release/dex/classes.dex.zip" afterPath="$PROJECT_DIR$/Outputs/release/dex/classes.dex.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_Practice/src/Sorting/mergeSort.java" afterPath="$PROJECT_DIR$/Java_Practice/src/Sorting/mergeSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_Practice/src/Threads/MergeSort_Thread.java" afterPath="$PROJECT_DIR$/Java_Practice/src/Threads/MergeSort_Thread.java" />
     </list>
     <ignored path="sanT.iws" />
@@ -42,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/Java_Practice/src/Threads/MergeSort_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -51,8 +106,8 @@
       <file leaf-file-name="MergeSort_Threaded_solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Java_Practice/src/Threads/MergeSort_Threaded_solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15337424">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.36585367">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -252,9 +307,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,66 +328,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Threads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java_Practice/src/Sorting" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -836,32 +837,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="835" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4972506" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32506528" sideWeight="0.49128127" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3320158" sideWeight="0.5076389" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32506528" sideWeight="0.4923611" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23333333" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23333333" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23402777" sideWeight="0.5151515" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34203655" sideWeight="0.49734646" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34203655" sideWeight="0.49734646" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32506528" sideWeight="0.49128127" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39963832" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32506528" sideWeight="0.4923611" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32506528" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1075,6 +1076,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Java_Practice/src/Threads/MergeSort_Threaded_solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Java_Practice/src/Design_Patterns/inheritance/animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1409,7 +1418,7 @@
     <entry file="file://$PROJECT_DIR$/Java_Practice/src/Threads/MergeSort_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1424,8 +1433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_Practice/src/Threads/MergeSort_Threaded_solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15337424">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36585367">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

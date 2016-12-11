@@ -45,8 +45,13 @@ public class MergeSort_Thread implements Runnable{
         for(int i:a)System.out.print(a[i]+" ");
     }
     public static void main(String ar[]){
+<<<<<<< HEAD
         Integer a[]={10,9,8,7,6,5,4,3,2,1};
         MergeSort_Thread o = new MergeSort_Thread(a,0,(a.length)-1);
+=======
+        int a[]={10,9,8,7,6,5,4,3,2,1};
+		MergeSort_Thread o=new MergeSort_Thread(a);
+>>>>>>> 349ff7ed40be46ba2a76b6400493b2d047ab1326
         Thread t = new Thread(o);
         t.start();
         try {
@@ -54,6 +59,10 @@ public class MergeSort_Thread implements Runnable{
         } catch (InterruptedException e1) {
             e1.printStackTrace();
         }
+<<<<<<< HEAD
         //for(int i:o.a)System.out.print(i+" ");
+=======
+        for(int i:o.a)System.out.print(i+" ");
+>>>>>>> 349ff7ed40be46ba2a76b6400493b2d047ab1326
     }
 }
