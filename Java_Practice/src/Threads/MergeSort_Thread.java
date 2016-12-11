@@ -6,7 +6,7 @@ package Threads;
 public class MergeSort_Thread implements Runnable{
     Integer a[],s=0,e=0,l=0;
     MergeSort_Thread(Integer[] a,Integer s,Integer e){
-        this.a = a;this.s=s;this.e=e;l=a.length;
+        this.a = a;this.s=s;this.e=e;l=e-s;
     }
     boolean compare(int i,int j){
         return (a[i]>a[j])?true:false;
@@ -16,42 +16,47 @@ public class MergeSort_Thread implements Runnable{
         a[i]=a[j];
         a[j]=x;
     }
-    public void run(){
+    void merge(int m){
+        for(int i=m;i>=0;i--){int j=i;
+            while(compare(j,j+1))swap(j,j+1);
+        }
+    }
+    void mergesortMethod(){
         if(l<2) return;
-        else if(l==3) for(int i=s;i<e;i++)if(compare(i,i+1))swap(i,i+1);
-        else{
-            Integer m = (s+e)/2;
-            Integer leftArray[]=new Integer[m-s+1],rightArray[]=new Integer[e-m];
-            Thread leftThread = new Thread(new MergeSort_Thread(leftArray,s,m));
-            Thread rightThread = new Thread(new MergeSort_Thread(rightArray,m+1,e));
-            leftThread.start();
-            rightThread.start();
-
+        else if(l==3){
+            for(int i=0,j=i+1;i<l&&j<=l;j++,i++){
+                if(compare(i,j))swap(i,j);
+            }
+        }
+        else {
+            int m = (s+e)/2;
+            MergeSort_Thread left = new MergeSort_Thread(a,s,m);
+            MergeSort_Thread right = new MergeSort_Thread(a,m+1,e);
+            Thread left_thread = new Thread(left);
+            Thread right_thread = new Thread(right);
+             left_thread.start();
+            right_thread.start();
             try {
-                leftThread.join();rightThread.join();
+                left_thread.join();right_thread.join();
             } catch (InterruptedException e1) {
                 e1.printStackTrace();
             }
-            for(int x=s,left_index=0,right_index=0;x<a.length&&left_index<=m&&right_index<=e;){
-                if(leftArray[left_index]<rightArray[right_index]){
-                    a[x]=leftArray[left_index];a[x+1]=rightArray[right_index];
-                }
-                else{
-                    a[x]=rightArray[right_index];a[x+1]=leftArray[left_index];
-                }
-                x++;left_index++;right_index++;
-            }
+            merge(m);
         }
-        for(int i:a)System.out.print(a[i]+" ");
     }
+    public void run(){
+        mergesortMethod();
+        }
+        //for(int i:a)System.out.print(a[i]+" ");
+
     public static void main(String ar[]){
-<<<<<<< HEAD
+
         Integer a[]={10,9,8,7,6,5,4,3,2,1};
         MergeSort_Thread o = new MergeSort_Thread(a,0,(a.length)-1);
-=======
-        int a[]={10,9,8,7,6,5,4,3,2,1};
-		MergeSort_Thread o=new MergeSort_Thread(a);
->>>>>>> 349ff7ed40be46ba2a76b6400493b2d047ab1326
+
+        //int a[]={10,9,8,7,6,5,4,3,2,1};
+		//MergeSort_Thread o=new MergeSort_Thread(a);
+
         Thread t = new Thread(o);
         t.start();
         try {
@@ -59,10 +64,10 @@ public class MergeSort_Thread implements Runnable{
         } catch (InterruptedException e1) {
             e1.printStackTrace();
         }
-<<<<<<< HEAD
+
         //for(int i:o.a)System.out.print(i+" ");
-=======
+
         for(int i:o.a)System.out.print(i+" ");
->>>>>>> 349ff7ed40be46ba2a76b6400493b2d047ab1326
+
     }
 }
