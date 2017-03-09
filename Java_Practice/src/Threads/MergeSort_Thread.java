@@ -23,6 +23,9 @@ public class MergeSort_Thread implements Runnable{
     }
     void mergesortMethod(){
         if(l<2) return;
+        else if(l==2){
+            if(compare(0,1)) swap(0,1);
+        }
         else if(l==3){
             for(int i=0,j=i+1;i<l&&j<=l;j++,i++){
                 if(compare(i,j))swap(i,j);
