@@ -7,4 +7,7 @@ abstract public class Asset {
 
         AssetValue=assetValue;
     }
+	public int getAssetValue(){
+		
+	}
 }
