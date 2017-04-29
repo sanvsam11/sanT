@@ -3,7 +3,6 @@
  */
 public interface LoanApplication {
     public boolean applyLoan();
-    public void addAsset();
     public int applicationStatus(LoanApplication instance);
-    
+
 }

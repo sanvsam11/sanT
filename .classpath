@@ -16,5 +16,8 @@
 	<classpathentry kind="src" path="GeeksForGeeks/Linked List/src"/>
 	<classpathentry kind="src" path="GeeksForGeeks/String/src"/>
 	<classpathentry kind="src" path="GeeksForGeeks/Tree/src"/>
+	<classpathentry kind="src" path="WebPageParsingProject/src"/>
+	<classpathentry kind="src" path="LoanApplication/src"/>
+	<classpathentry kind="var" path="USER_HOME/Documents/Frameworks/jsoup-1.10.2.jar"/>
 	<classpathentry kind="output" path="Outputs"/>
 </classpath>

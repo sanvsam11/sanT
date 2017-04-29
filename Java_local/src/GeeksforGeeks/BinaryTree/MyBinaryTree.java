@@ -23,15 +23,16 @@ class BinaryTree<e> {
             System.out.print(n.element+" ");
             printInOrder(n.right);
     }
-}
-class node<e>{
-    e element;
-    node<e> left;
-    node<e> right;
-    public node(e element){
-        this.element=element;
-        left=null;
-        right=null;
+    public void printLevelOrder(nodeQueue q){
+        while(!q.isEmpty()){
+            node<Character> pop = q.dequeue();
+            System.out.print(pop.element+" ");
+            if(pop.left!=null) q.enqueue(pop.left);
+            if(pop.right!=null) q.enqueue(pop.right);
+        }
+    }
+    public void printLevelOrderSpiral(nodeQueue q){
+
     }
 }
 
@@ -43,9 +44,12 @@ public class MyBinaryTree{
         duplicateTree.insert(root,'c');
         duplicateTree.insert(root.left,'d');
         duplicateTree.insert(root.left,'e');
-        duplicateTree.insert(root.right,'b');
-        duplicateTree.insert(root.right.left,'d');
-        duplicateTree.insert(root.right.left,'e');
-        duplicateTree.printInOrder(root);
+        duplicateTree.insert(root.left.left,'y');
+        duplicateTree.insert(root.left.left,'z');
+        duplicateTree.insert(root.right,'f');
+        duplicateTree.insert(root.right,'g');
+        //duplicateTree.printInOrder(root);
+        nodeQueue<Character> levelQueue = new nodeQueue<>(root);
+        duplicateTree.printLevelOrder(levelQueue);
     }
 }
