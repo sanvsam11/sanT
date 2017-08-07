@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="db-derby-10.1.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Frameworks/db-derby-10.1.2.1-bin" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Frameworks/db-derby-10.1.2.1-bin/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Frameworks/db-derby-10.1.2.1-bin/demo" />
+      <root url="file://$USER_HOME$/Frameworks/db-derby-10.1.2.1-bin/demo/simple" />
+    </SOURCES>
+  </library>
+</component>
